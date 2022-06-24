@@ -12,7 +12,9 @@ window.onload = () => {
 function renderList() {
     // TODO fade in the categories instead of jumping
 
-    window.tips["categories"].sort((a, b) => {return a["count"] - b["count"]}).reverse()
+    window.tips["categories"].sort((a, b) => {
+        return a["count"] - b["count"]
+    }).reverse()
 
     window.tips["categories"].forEach((category) => {
         name = category["name"]
@@ -29,6 +31,9 @@ function renderList() {
             </div>
 
             <div class="random-msgs">
+                <div class="last-updated">
+                    [LAST_SUGGESTED_TIME]
+</div>
                 <div class="message">
                     [LAST_MSG_1]
                 </div>
@@ -48,6 +53,8 @@ function renderList() {
         } else {
             template = template.replace(" [SHOULDCROP]", "")
         }
+
+        template = process_time_difference(template, category)
 
         let tipsMsgs = category["tips"].filter((tip) => {
             return tip["text"].length > 5
@@ -101,6 +108,47 @@ function sanitize(string) {
     };
     const reg = /[&<>"'/]/ig;
     return string.replace(reg, (match) => (map[match]));
+}
+
+function process_time_difference(template, category) {
+    tips = category["tips"]
+
+    if (tips.length == 0) {
+        return template.replace("[LAST_SUGGESTED_TIME]", "")
+    }
+
+    tips.sort((tipa, tipb) => {
+            return tipa["time"] - tipb["time"]
+        })
+
+    tips.reverse()
+
+    lastTime = tips[0]["time"]
+    currentTime = new Date().getTime() / 1000
+
+    difference = currentTime - lastTime
+
+    if (difference < 60) {
+        // Less than a minute has passed:
+        output = `${Math.round(difference)} seconds ago`;
+    } else if (difference < 3600) {
+        // Less than an hour has passed:
+        output = `${Math.floor(difference / 60)} minutes ago`;
+    } else if (difference < 86400) {
+        // Less than a day has passed:
+        output = `${Math.floor(difference / 3600)} hours ago`;
+    } else if (difference < 2620800) {
+        // Less than a month has passed:
+        output = `${Math.floor(difference / 86400)} days ago`;
+    } else if (difference < 31449600) {
+        // Less than a year has passed:
+        output = `${Math.floor(difference / 2620800)} months ago`;
+    } else {
+        // More than a year has passed:
+        output = `${Math.floor(difference / 31449600)} year(s) ago`;
+    }
+
+    return template.replace("[LAST_SUGGESTED_TIME]", "Last added to " + output)
 }
 
 setTimeout(function () {

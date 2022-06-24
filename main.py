@@ -58,7 +58,7 @@ def submit_new():
         return "Something went wrong. Is the category valid?", 400
 
     with open("logs.txt", "a") as f:
-        f.write(request.headers.get("CF-Connecting-IP") + "::" + data["token"] + "::" + data["messageid"] + "::" + data["category"] + "::" + data["messagetext"] + "\n\n\n\n\n\n\n\n ---------- \n\n\n\n\n\n\n\n")
+        f.write(str(request.headers.get("CF-Connecting-IP")) + "::" + data["token"] + "::" + data["messageid"] + "::" + data["category"] + "::" + data["messagetext"] + "\n\n\n\n\n\n\n\n ---------- \n\n\n\n\n\n\n\n")
 
     return "OK", 200
 
