@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin</title>
+
+        <link rel="stylesheet" href="/assets/reset.css">
+
+    <link rel="stylesheet" href="/assets/admin.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&family=Raleway:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <script src="/assets/admin.js"></script>
+</head>
+<body>
+<table id="tipsTable">
+    <tr>
+        <th>UID</th>
+        <th>Category</th>
+        <th>Message ID</th>
+        <th>Time</th>
+        <th>Text</th>
+    </tr>
+</table>
+
+<br><br><br><br><br><br><br>
+
+<input type="text" id="todeleteid" placeholder="ID to delete">
+
+<button onclick="delete_by_id(document.getElementById('todeleteid').value)">Delete</button>
+</body>
+</html>

@@ -129,6 +129,18 @@ class DatabaseManager():
 
         return False
 
+    def remove_by_id(self, uid):
+        for category in self.tip_list["categories"]:
+            for tip in category["tips"]:
+
+                if str(tip["uid"]).strip() == str(uid).strip():
+                    category["tips"].remove(tip)
+                    self.dump_tips_to_file()
+                    self.dumped_cache = None
+                    return True
+
+        return False
+
     def tip_list_to_json_cached(self):
         if not self.dumped_cache:
             text = json.dumps(self.tip_list)

@@ -1,5 +1,5 @@
 from waitress import serve
-from flask import Flask, render_template, send_from_directory, request
+from flask import Flask, render_template, send_from_directory, request, redirect
 import os
 from database import DatabaseManager
 import json
@@ -58,7 +58,7 @@ def submit_new():
         return "Something went wrong. Is the category valid?", 400
 
     with open("logs.txt", "a") as f:
-        f.write(data["token"] + "::" + data["messageid"] + "::" + data["category"] + "::" + data["messagetext"] + "\n\n\n\n\n\n\n\n ---------- \n\n\n\n\n\n\n\n")
+        f.write(request.headers.get("CF-Connecting-IP") + "::" + data["token"] + "::" + data["messageid"] + "::" + data["category"] + "::" + data["messagetext"] + "\n\n\n\n\n\n\n\n ---------- \n\n\n\n\n\n\n\n")
 
     return "OK", 200
 
@@ -69,6 +69,27 @@ def get_keywords():
         categoriesToSend[category["name"]] = category["keywords"]
 
     return json.dumps(categoriesToSend)
+
+
+@app.route("/admin")
+def admin():
+    with open("admin_pwd.txt") as f:
+        if request.cookies.get("password") != f.readlines()[0].strip():
+            return redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ", code=302)
+
+    return render_template("admin.html")
+
+@app.route("/admin_delete", methods=["POST"])
+def admin_delete():
+    with open("admin_pwd.txt") as f:
+        if request.cookies.get("password") != f.readlines()[0].strip():
+            return redirect("https://www.youtube.com/watch?v=dQw4w9WgXcQ", code=302)
+
+    uid = json.loads(request.data)["uid"]
+
+    db.remove_by_id(uid)
+
+    return "Done. Maybe."
 
 HOST = "0.0.0.0"
 PORT = 8075
