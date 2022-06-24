@@ -159,3 +159,7 @@ body {
     background-color: var(--text-colour);
     color: var(--darkgrey);
 }
+
+#github:visited {
+    color: white;
+}

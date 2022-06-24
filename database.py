@@ -16,7 +16,7 @@ class DatabaseManager():
                     "categories": [
                         {
                             "name": "F-14 Tomcat",
-                            "image": "F14.png",
+                            "image": "F14.webp",
                             "description": None,
                             "count": 0,
                             "tips": [],
@@ -25,7 +25,7 @@ class DatabaseManager():
                         },
                         {
                             "name": "AC-130",
-                            "image": "AC130.png",
+                            "image": "AC130.webp",
                             "description": None,
                             "count": 0,
                             "tips": [],
@@ -34,7 +34,7 @@ class DatabaseManager():
                         },
                         {
                             "name": "Two seat fixed wing",
-                            "image": "Multiseat.png",
+                            "image": "Multiseat.webp",
                             "description": None,
                             "count": 0,
                             "tips": [],
@@ -43,7 +43,7 @@ class DatabaseManager():
                         },
                         {
                             "name": "Thrust Vectoring",
-                            "image": "thrustvectoring.png",
+                            "image": "thrustvectoring.webp",
                             "description": None,
                             "count": 0,
                             "tips": [],
@@ -52,7 +52,7 @@ class DatabaseManager():
                         },
                         {
                             "name": "Air Traffic Control",
-                            "image": "ATC.png",
+                            "image": "ATC.webp",
                             "description": None,
                             "count": 0,
                             "tips": [],
@@ -61,7 +61,7 @@ class DatabaseManager():
                         },
                         {
                             "name": "A-10 Thunderbolt II",
-                            "image": "A-10.png",
+                            "image": "A-10.webp",
                             "description": "A10 bEsT cAs AiRcRaFt",
                             "count": 0,
                             "tips": [],
@@ -70,7 +70,7 @@ class DatabaseManager():
                         },
                         {
                             "name": "Quest 2 Standalone",
-                            "image": "q2.png",
+                            "image": "q2.webp",
                             "description": None,
                             "count": 0,
                             "tips": [],
@@ -79,7 +79,7 @@ class DatabaseManager():
                         },
                         {
                             "name": "Electronic Warfare",
-                            "image": "EWAR.png",
+                            "image": "EWAR.webp",
                             "description": None,
                             "count": 0,
                             "tips": [],
