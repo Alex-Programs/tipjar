@@ -1,0 +1,155 @@
+:root {
+    --darkgrey: #242424;
+    --text-colour: #e1e1e1;
+}
+
+body {
+    background-color: var(--darkgrey);
+    color: var(--text-colour);
+
+    font-family: "JetBrains Mono", monospace;
+}
+
+.content {
+    max-width: 1200px;
+    margin: auto;
+
+    padding: 25px;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.loading-msg {
+    font-size: 32px;
+    text-align: center;
+
+    animation: fadeIn 1s;
+}
+
+.category {
+    margin-top: 25px;
+    border: 2px var(--text-colour) solid;
+
+    padding: 15px;
+}
+
+.circlecrop {
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 1100px) {
+    .category-top {
+        display: flex;
+        height: 300px;
+        vertical-align: middle;
+    }
+
+    .category-img {
+        min-height: 300px;
+        max-height: 300px;
+
+        min-width: 300px;
+        max-width: 300px;
+    }
+
+    .category-name {
+        width: 100%;
+        line-height: 300px;
+        text-align: left;
+        padding-left: 25px;
+        font-size: 48px;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    .category-count {
+        width: 40%;
+        font-size: 128px;
+        text-align: right;
+        line-height: 300px;
+        margin: 0px;
+    }
+
+    .random-msgs {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .message {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .category-top {
+        display: block;
+    }
+
+    .category-img {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+        display: block;
+
+        min-height: 200px;
+        max-height: 200px;
+
+
+        min-width: 200px;
+        max-width: 200px;
+    }
+
+    .category-name {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .category-count {
+        text-align: center;
+        font-size: 64px;
+    }
+
+    .random-msgs {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .message {
+        padding: 20px;
+    }
+}
+
+.submit-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button {
+    height: 40px;
+    background-color: transparent;
+    color: var(--text-colour);
+    border: var(--text-colour) 2px solid;
+}
+
+.submit-button:hover {
+    background-color: var(--text-colour);
+    color: var(--darkgrey);
+}
