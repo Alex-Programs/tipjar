@@ -34,7 +34,7 @@
     </br>
 
     <label for="category">Category</label> </br>
-    <select id="category"> <!--TO UPDATE CHANGE HERE-->
+    <select id="category" onchange="check_for_keywords()"> <!--TO UPDATE CHANGE HERE-->
         <option>F-14 Tomcat</option>
         <option>AC-130</option>
         <option>Two seat fixed wing</option>
@@ -42,6 +42,7 @@
         <option>Air Traffic Control</option>
         <option>A-10 Thunderbolt II</option>
         <option>Quest 2 Standalone</option>
+        <option>Electronic Warfare</option>
     </select>
 
     </br> </br>
@@ -55,9 +56,13 @@
         </br> <p id="link-msg"></p> </br>
 
         <label for="msgtext">Message Text (Optional, character limit 300)</label> </br>
-        <textarea type="text" maxlength="300" id="msgtext" cols="80" rows="10"></textarea>
+        <textarea type="text" maxlength="300" id="msgtext" cols="80" rows="10" oninput="check_for_keywords()"></textarea>
 
-        </br> </br>
+        </br>
+
+        <p id="warning_message"></p>
+
+        </br>
 
         <button id="submit_btn" onclick="submit()">Submit</button>
     </div>

@@ -25,7 +25,7 @@ function validate_link(event) {
         return
     }
 
-    if (!isNumeric(sections[4]) || !isNumeric(sections[5])|| !isNumeric(sections[6])) {
+    if (!isNumeric(sections[4]) || !isNumeric(sections[5]) || !isNumeric(sections[6])) {
         document.getElementById("link-msg").innerText = "Invalid link."
         window.valid_link = false;
         return
@@ -66,7 +66,12 @@ function submit() {
             "Content-Type": "application/json"
         },
         method: "POST",
-        body: JSON.stringify({"category": document.getElementById("category").value, "messageid": window.currentMessageID, "messagetext": document.getElementById("msgtext").value, "token": browserid()})
+        body: JSON.stringify({
+            "category": document.getElementById("category").value,
+            "messageid": window.currentMessageID,
+            "messagetext": document.getElementById("msgtext").value,
+            "token": browserid()
+        })
     }).then((res) => {
         if (res.status === 200) {
             alert("Success!")
@@ -74,7 +79,9 @@ function submit() {
             document.getElementById("msgtext").value = ""
             document.getElementById("discordlink").value = ""
         } else {
-            res.text().then((text) => {alert("Something went wrong: " + text)})
+            res.text().then((text) => {
+                alert("Something went wrong: " + text)
+            })
         }
     })
 }
@@ -90,3 +97,38 @@ function browserid() {
         return token
     }
 }
+
+function check_for_keywords() {
+    text = document.getElementById("msgtext").value
+    categories_flagged = []
+
+    for (const [name, words] of Object.entries(window.keywords)) {
+        if (name !== document.getElementById("category").value) {
+            for (const entry of words) {
+                if (text.toLowerCase().includes(entry.toLowerCase())) {
+                    categories_flagged.push(name)
+                    break
+                }
+            }
+        }
+    }
+
+    if (categories_flagged.length > 0) {
+        text = "Are you sure your category is correct? Keywords connected to:<ul>"
+        for (const name of categories_flagged) {
+            text = text + "<li>" + name + "</li>"
+        }
+
+        document.getElementById("warning_message").innerHTML = text + "</ul> have been found"
+    } else {
+        document.getElementById("warning_message").innerHTML = ""
+    }
+}
+
+fetch("/get_keywords", {
+    method: "GET"
+}).then((res) => {
+    res.json().then((res) => {
+        window.keywords = res
+    })
+})

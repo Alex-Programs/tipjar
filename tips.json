@@ -1,166 +1,209 @@
 {
-    "categories": [
+  "categories": [
+    {
+      "name": "F-14 Tomcat",
+      "image": "F14.png",
+      "description": null,
+      "count": 4,
+      "tips": [
         {
-            "name": "F-14 Tomcat",
-            "image": "F14.png",
-            "description": null,
-            "count": 4,
-            "tips": [
-                {
-                    "uid": "0112a30edae07bb819595d21e661c06f14519f309e0009bfeca5e6f88fbb355a",
-                    "messageid": "989602775895785643",
-                    "text": "f-14 would be awesome",
-                    "time": 1656081341.8651087
-                },
-                {
-                    "uid": "e2f148939a779b4fd603aab747fe0eca11c88037005927cb9057df0f03464f64",
-                    "messageid": "989439185301688330",
-                    "text": "Hey, VtolVR devs. Is there any plans on making a Variable Geometry aircraft like the F-14 or MiG-23 into the game, or even adding the Jetborne jet into the game with hard points?",
-                    "time": 1656082793.3301039
-                },
-                {
-                    "uid": "f1075171259c201946bacedef9d62a6f23a5dc48e9fb19fbeb22daf3a57ffa8e",
-                    "messageid": "988942307661320192",
-                    "text": "https://steamcommunity.com/app/667970/discussions/0/3187992337826257369/?tscn=1655517040\n\nEven if it's a copy paste FA-26B but 2 seater we'll buy it, just take our money already its just laying there for you up for grabs, we're counting on you",
-                    "time": 1656083162.7090845
-                },
-                {
-                    "uid": "2d1a899b3df2622c517e4960ac75ab447712d83e1d36e2af7f071f4c4c9ddde9",
-                    "messageid": "988569428155334686",
-                    "text": "does anyone think there should be more old planes like the F-14?",
-                    "time": 1656083240.3060236
-                }
-            ],
-            "circleCrop": true
+          "uid": "0112a30edae07bb819595d21e661c06f14519f309e0009bfeca5e6f88fbb355a",
+          "messageid": "989602775895785643",
+          "text": "f-14 would be awesome",
+          "time": 1656081341.8651087
         },
         {
-            "name": "AC-130",
-            "image": "AC130.png",
-            "description": null,
-            "count": 1,
-            "tips": [
-                {
-                    "uid": "da4da1c40255b74d1f8e0954c634f1342a97f61fdfce984a6a74d1681e3a88bb",
-                    "messageid": "988494072350113863",
-                    "text": "And like a ac-130* style air craft would be cool for like high altitude kind of bombardment where you can have like 4 people doing their thing where two are gunning, one is piloting, and another is manning ew to help jam missiles which flying the plane would be more of a high risk high reward",
-                    "time": 1656083826.6471186
-                }
-            ],
-            "circleCrop": true
+          "uid": "e2f148939a779b4fd603aab747fe0eca11c88037005927cb9057df0f03464f64",
+          "messageid": "989439185301688330",
+          "text": "Hey, VtolVR devs. Is there any plans on making a Variable Geometry aircraft like the F-14 or MiG-23 into the game, or even adding the Jetborne jet into the game with hard points?",
+          "time": 1656082793.3301039
         },
         {
-            "name": "Two seat fixed wing",
-            "image": "Multiseat.png",
-            "description": null,
-            "count": 4,
-            "tips": [
-                {
-                    "uid": "b2237355f60c1b9a28f833bfe1ce95d3d538c80e783a7be0807e0f681d5096be",
-                    "messageid": "988281113090875392",
-                    "text": "Have a 2 seater fighter like the F-14 with a weapons officer in the back",
-                    "time": 1656083347.7137349
-                },
-                {
-                    "uid": "400b043a0aff3f5805158afb928c23111f2507aa193e176381c9c865a9380e98",
-                    "messageid": "986678635400405122",
-                    "text": "How much would you pay for a modded multicrew plane/F14? [redacted survey link]",
-                    "time": 1656083552.5927634
-                },
-                {
-                    "uid": "e986ac507b73d45fbfd66bdc79472a61cfd00b8711692278d544139bf3643b83",
-                    "messageid": "980265567485325402",
-                    "text": "I guess what I really want at its core is a two seat jet with ground radar",
-                    "time": 1656083748.454449
-                },
-                {
-                    "uid": "29d8f310cb4ae3bbeea85589054509f89882fdd54a6525df86a7b353427db05f",
-                    "messageid": "956477170014908477",
-                    "text": "do you think there will be a jet with two seat ?",
-                    "time": 1656083793.2673573
-                }
-            ],
-            "circleCrop": true
+          "uid": "f1075171259c201946bacedef9d62a6f23a5dc48e9fb19fbeb22daf3a57ffa8e",
+          "messageid": "988942307661320192",
+          "text": "https://steamcommunity.com/app/667970/discussions/0/3187992337826257369/?tscn=1655517040\n\nEven if it's a copy paste FA-26B but 2 seater we'll buy it, just take our money already its just laying there for you up for grabs, we're counting on you",
+          "time": 1656083162.7090845
         },
         {
-            "name": "Thrust Vectoring",
-            "image": "thrustvectoring.png",
-            "description": null,
-            "count": 0,
-            "tips": [],
-            "circleCrop": true
-        },
-        {
-            "name": "Air Traffic Control",
-            "image": "ATC.png",
-            "description": null,
-            "count": 2,
-            "tips": [
-                {
-                    "uid": "acd63aa470df3fdfe11be872996361182cbf6f99686c1b2ec7589478f233b2d4",
-                    "messageid": "989510685111251025",
-                    "text": "Has there been any mention of adding an observer role to play ATC or JTAC? It would be kind of cool if you could like attach it to things like ground parties or the tower back at base.",
-                    "time": 1656084038.202231
-                },
-                {
-                    "uid": "f41a9541eb5c95c8d3013a6995c2f50e7d7636cc81fe64451d8e2e43940670fb",
-                    "messageid": "986391030960111678",
-                    "text": "i genuinely think there should be some kinda ATC role for people who just want to vibe",
-                    "time": 1656084055.567922
-                }
-            ],
-            "circleCrop": true
-        },
-        {
-            "name": "A-10 Thunderbolt II",
-            "image": "A-10.png",
-            "description": "A10 bEsT cAs AiRcRaFt",
-            "count": 3,
-            "tips": [
-                {
-                    "uid": "bac72d1e69bef94b288106127310c7e693d6a44e39a8aa8d136d06cb0005b722",
-                    "messageid": "989396299264692224",
-                    "text": "A-10 when",
-                    "time": 1656084094.5727518
-                },
-                {
-                    "uid": "07ad725134aafb061c848f817d1f6097a069f946b53e35008a9a9aaec4969908",
-                    "messageid": "962180000923136031",
-                    "text": "add a-10 to vto",
-                    "time": 1656084197.5858195
-                },
-                {
-                    "uid": "bd42fb93823fa2788e70c2ab2f8a464dd736c2607817555cf41227611e0cfee9",
-                    "messageid": "745499573128003645",
-                    "text": "I know they have a GUA-8 but they should still add a A-10 warthog. Or someone mod it when models come out of possible",
-                    "time": 1656084224.163897
-                }
-            ],
-            "circleCrop": true
-        },
-        {
-            "name": "Quest 2 Standalone",
-            "image": "q2.png",
-            "description": null,
-            "count": 3,
-            "tips": [                {
-                    "uid": "3c32da80ead8a745228d7c4c6f65edb91084cdf53ce313be7030aadd3d6f1631",
-                    "messageid": "778159548065513502",
-                    "text": "So will VTOL VR ever be on Oculus Quest 2 natively?",
-                    "time": 1656084260.3771963
-                },
-                {
-                    "uid": "3831f06d90a2cc23c09012b007e83dc110edeec4bc6777b514cc33de76581ac6",
-                    "messageid": "959206902854742026",
-                    "text": "will vtol ever make its way to Oculus Store?",
-                    "time": 1656084280.9623659
-                },
-                {
-                    "uid": "5cc70412889921db2cb80da097cbb22231bae642c73cda593c515e7efde18190",
-                    "messageid": "842349432842354698",
-                    "text": "will vtol vr be in oculu quest 2 store?",
-                    "time": 1656084314.048337
-                }],
-            "circleCrop": false
+          "uid": "2d1a899b3df2622c517e4960ac75ab447712d83e1d36e2af7f071f4c4c9ddde9",
+          "messageid": "988569428155334686",
+          "text": "does anyone think there should be more old planes like the F-14?",
+          "time": 1656083240.3060236
         }
-    ]
+      ],
+      "circleCrop": true,
+      "keywords": ["F14", "F-14", "Tomcat"]
+    },
+    {
+      "name": "AC-130",
+      "image": "AC130.png",
+      "description": null,
+      "count": 1,
+      "tips": [
+        {
+          "uid": "da4da1c40255b74d1f8e0954c634f1342a97f61fdfce984a6a74d1681e3a88bb",
+          "messageid": "988494072350113863",
+          "text": "And like a ac-130* style air craft would be cool for like high altitude kind of bombardment where you can have like 4 people doing their thing where two are gunning, one is piloting, and another is manning ew to help jam missiles which flying the plane would be more of a high risk high reward",
+          "time": 1656083826.6471186
+        }
+      ],
+      "circleCrop": true,
+      "keywords": ["AC130", "C130", "AC-130", "Gunship"]
+    },
+    {
+      "name": "Two seat fixed wing",
+      "image": "Multiseat.png",
+      "description": null,
+      "count": 4,
+      "tips": [
+        {
+          "uid": "b2237355f60c1b9a28f833bfe1ce95d3d538c80e783a7be0807e0f681d5096be",
+          "messageid": "988281113090875392",
+          "text": "Have a 2 seater fighter like the F-14 with a weapons officer in the back",
+          "time": 1656083347.7137349
+        },
+        {
+          "uid": "400b043a0aff3f5805158afb928c23111f2507aa193e176381c9c865a9380e98",
+          "messageid": "986678635400405122",
+          "text": "How much would you pay for a modded multicrew plane/F14? [redacted survey link]",
+          "time": 1656083552.5927634
+        },
+        {
+          "uid": "e986ac507b73d45fbfd66bdc79472a61cfd00b8711692278d544139bf3643b83",
+          "messageid": "980265567485325402",
+          "text": "I guess what I really want at its core is a two seat jet with ground radar",
+          "time": 1656083748.454449
+        },
+        {
+          "uid": "29d8f310cb4ae3bbeea85589054509f89882fdd54a6525df86a7b353427db05f",
+          "messageid": "956477170014908477",
+          "text": "do you think there will be a jet with two seat ?",
+          "time": 1656083793.2673573
+        }
+      ],
+      "circleCrop": true,
+      "keywords": ["Two seat", "Back seat", "Multi seat", "Rear seat", "Dual seat", "Multiseat"]
+    },
+    {
+      "name": "Thrust Vectoring",
+      "image": "thrustvectoring.png",
+      "description": null,
+      "count": 0,
+      "tips": [],
+      "circleCrop": true,
+      "keywords": ["Thrust vectoring", "vectored"]
+    },
+    {
+      "name": "Air Traffic Control",
+      "image": "ATC.png",
+      "description": null,
+      "count": 2,
+      "tips": [
+        {
+          "uid": "acd63aa470df3fdfe11be872996361182cbf6f99686c1b2ec7589478f233b2d4",
+          "messageid": "989510685111251025",
+          "text": "Has there been any mention of adding an observer role to play ATC or JTAC? It would be kind of cool if you could like attach it to things like ground parties or the tower back at base.",
+          "time": 1656084038.202231
+        },
+        {
+          "uid": "f41a9541eb5c95c8d3013a6995c2f50e7d7636cc81fe64451d8e2e43940670fb",
+          "messageid": "986391030960111678",
+          "text": "i genuinely think there should be some kinda ATC role for people who just want to vibe",
+          "time": 1656084055.567922
+        }
+      ],
+      "circleCrop": true,
+      "keywords": ["ATC", "traffic control", "JTAC"]
+    },
+    {
+      "name": "A-10 Thunderbolt II",
+      "image": "A-10.png",
+      "description": "A10 bEsT cAs AiRcRaFt",
+      "count": 3,
+      "tips": [
+        {
+          "uid": "bac72d1e69bef94b288106127310c7e693d6a44e39a8aa8d136d06cb0005b722",
+          "messageid": "989396299264692224",
+          "text": "A-10 when",
+          "time": 1656084094.5727518
+        },
+        {
+          "uid": "07ad725134aafb061c848f817d1f6097a069f946b53e35008a9a9aaec4969908",
+          "messageid": "962180000923136031",
+          "text": "add a-10 to vto",
+          "time": 1656084197.5858195
+        },
+        {
+          "uid": "bd42fb93823fa2788e70c2ab2f8a464dd736c2607817555cf41227611e0cfee9",
+          "messageid": "745499573128003645",
+          "text": "I know they have a GUA-8 but they should still add a A-10 warthog. Or someone mod it when models come out of possible",
+          "time": 1656084224.163897
+        }
+      ],
+      "circleCrop": true,
+      "keywords": ["A10", "A-10", "GAU-8", "brrrr", "rrrt", "10C", "CAS aircraft"]
+    },
+    {
+      "name": "Quest 2 Standalone",
+      "image": "q2.png",
+      "description": null,
+      "count": 4,
+      "tips": [
+        {
+          "uid": "3c32da80ead8a745228d7c4c6f65edb91084cdf53ce313be7030aadd3d6f1631",
+          "messageid": "778159548065513502",
+          "text": "So will VTOL VR ever be on Oculus Quest 2 natively?",
+          "time": 1656084260.3771963
+        },
+        {
+          "uid": "3831f06d90a2cc23c09012b007e83dc110edeec4bc6777b514cc33de76581ac6",
+          "messageid": "959206902854742026",
+          "text": "will vtol ever make its way to Oculus Store?",
+          "time": 1656084280.9623659
+        },
+        {
+          "uid": "5cc70412889921db2cb80da097cbb22231bae642c73cda593c515e7efde18190",
+          "messageid": "842349432842354698",
+          "text": "will vtol vr be in oculu quest 2 store?",
+          "time": 1656084314.048337
+        },
+        {
+          "uid": "93bba30e6ed8d40d1c3836f302648fd35422a445e676acf34db2bebb6475e1af",
+          "messageid": "980568794198052885",
+          "text": "Huge fan of the game. Would love to see this on quest 2 standalone.",
+          "time": 1656084548.729692
+        }
+      ],
+      "circleCrop": false,
+      "keywords": ["Quest 2", "standalone", "oculus", "store", "native"]
+    },
+    {
+      "name": "Electronic Warfare",
+      "image": "EWAR.png",
+      "description": null,
+      "count": 3,
+      "tips": [
+        {
+          "uid": "36e6b9ef361747ed5d5165408cbecf817c26bf43f784c6550d4dfb0b259b5070",
+          "messageid": "969601624861466644",
+          "text": "Electronic warfare planes > all",
+          "time": 1656085710.5630927
+        },
+        {
+          "uid": "a4d552b8fa1880600fb758d8efdf40a2eb9c2d61fadd2621a655dbef5ccbca5c",
+          "messageid": "986735846604554240",
+          "text": "electronic warfare electronic warfare electronic warfare electronic warfare electronic warfare electronic warfare electronic warfare",
+          "time": 1656085648.933857
+        },
+        {
+          "uid": "bbe31eb9a8b39efa1eb1d513f3aede4c61b8a2402afb8682ac912b7949f82ca4",
+          "messageid": "985793052113256450",
+          "text": "An electronic warfare jet would be super cool",
+          "time": 1656085661.9974308
+        }
+      ],
+      "circleCrop": true,
+      "keywords": ["EWAR", "electronic warfare", "EW", "jamming", "growler"]
+    }
+  ]
 }

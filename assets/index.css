@@ -90,6 +90,8 @@ body {
     .random-msgs {
         margin-top: 20px;
         text-align: center;
+
+        word-break: break-all;
     }
 
     .message {
@@ -129,6 +131,8 @@ body {
     .random-msgs {
         margin-top: 20px;
         text-align: center;
+
+        word-break: break-all;
     }
 
     .message {

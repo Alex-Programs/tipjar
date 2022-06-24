@@ -62,6 +62,14 @@ def submit_new():
 
     return "OK", 200
 
+@app.route("/get_keywords")
+def get_keywords():
+    categoriesToSend = {}
+    for category in db.tip_list["categories"]:
+        categoriesToSend[category["name"]] = category["keywords"]
+
+    return json.dumps(categoriesToSend)
+
 HOST = "0.0.0.0"
 PORT = 8072
 print(f"Starting on {HOST}:{PORT}")

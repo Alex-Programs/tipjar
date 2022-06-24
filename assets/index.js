@@ -12,6 +12,8 @@ window.onload = () => {
 function renderList() {
     // TODO fade in the categories instead of jumping
 
+    window.tips["categories"].sort((a, b) => {return a["count"] - b["count"]}).reverse()
+
     window.tips["categories"].forEach((category) => {
         name = category["name"]
         image_path = "/assets/" + category["image"]

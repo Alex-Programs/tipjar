@@ -21,6 +21,7 @@ class DatabaseManager():
                             "count": 0,
                             "tips": [],
                             "circleCrop": True,
+                            "keywords": ["F14", "F-14", "Tomcat"],
                         },
                         {
                             "name": "AC-130",
@@ -29,6 +30,7 @@ class DatabaseManager():
                             "count": 0,
                             "tips": [],
                             "circleCrop": True,
+                            "keywords": ["AC130", "C130", "AC-130", "Gunship"],
                         },
                         {
                             "name": "Two seat fixed wing",
@@ -37,6 +39,7 @@ class DatabaseManager():
                             "count": 0,
                             "tips": [],
                             "circleCrop": True,
+                            "keywords": ["Two seat", "Back seat", "Multi seat", "Rear seat", "Dual seat", "Multiseat"],
                         },
                         {
                             "name": "Thrust Vectoring",
@@ -45,6 +48,7 @@ class DatabaseManager():
                             "count": 0,
                             "tips": [],
                             "circleCrop": True,
+                            "keywords": ["Thrust vectoring", "vectored"],
                         },
                         {
                             "name": "Air Traffic Control",
@@ -53,6 +57,7 @@ class DatabaseManager():
                             "count": 0,
                             "tips": [],
                             "circleCrop": True,
+                            "keywords": ["ATC", "traffic control", "JTAC"]
                         },
                         {
                             "name": "A-10 Thunderbolt II",
@@ -61,6 +66,7 @@ class DatabaseManager():
                             "count": 0,
                             "tips": [],
                             "circleCrop": True,
+                            "keywords": ["A10", "A-10", "GAU-8", "brrrr", "rrrt", "10C", "CAS aircraft"],
                         },
                         {
                             "name": "Quest 2 Standalone",
@@ -69,7 +75,17 @@ class DatabaseManager():
                             "count": 0,
                             "tips": [],
                             "circleCrop": False,
-                        } # TO ADD A NEW AIRCRAFT CHANGE THIS AND MODIFY tips.json
+                            "keywords": ["Quest 2", "standalone", "oculus", "store", "native"]
+                        },
+                        {
+                            "name": "Electronic Warfare",
+                            "image": "EWAR.png",
+                            "description": None,
+                            "count": 0,
+                            "tips": [],
+                            "circleCrop": True,
+                            "keywords": ["EWAR", "electronic warfare", "EW", "jamming", "growler"]
+                        }# TO ADD A NEW AIRCRAFT CHANGE THIS AND MODIFY tips.json AND MODIFY submit.html
                     ],
                 }, indent=4))
 
