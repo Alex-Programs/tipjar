@@ -31,9 +31,7 @@ function renderList() {
             </div>
 
             <div class="random-msgs">
-                <div class="last-updated">
-                    [LAST_SUGGESTED_TIME]
-</div>
+            </br>
                 <div class="message">
                     [LAST_MSG_1]
                 </div>
@@ -43,6 +41,10 @@ function renderList() {
                 <div class="message">
                     [LAST_MSG_3]
                 </div>
+                
+                                <div class="last-updated">
+                    <i>[LAST_SUGGESTED_TIME]</i>
+</div>
             </div>
         </div>`.replace("[IMAGE_PATH]", image_path)
             .replace("[NAME]", name)
