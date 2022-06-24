@@ -71,7 +71,7 @@ def get_keywords():
     return json.dumps(categoriesToSend)
 
 HOST = "0.0.0.0"
-PORT = 8072
+PORT = 8075
 print(f"Starting on {HOST}:{PORT}")
 if os.name == "nt":
     app.run(HOST, PORT, debug=True)
