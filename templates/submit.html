@@ -2,9 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Submit | Tip Jar</title>
+
+    <link rel="stylesheet" href="/assets/reset.css">
+
+    <link rel="stylesheet" href="/assets/submit.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,800&family=Raleway:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <script src="/assets/submit.js"></script>
 </head>
 <body>
 
+<div id="js_fill_in" class="content">
+    <noscript>
+        <h1 style="text-align: center">JS is required!</h1>
+    </noscript>
+
+    <div class="back-box">
+        <a href="/">
+            <button class="back-button">Back</button>
+        </a>
+    </div>
+
+    <h3>Submit a new tip</h3>
+    </br>
+
+    <label for="category">Category</label> </br>
+    <select id="category"> <!--TO UPDATE CHANGE HERE-->
+        <option>F-14 Tomcat</option>
+        <option>AC-130</option>
+        <option>Two seat fixed wing</option>
+        <option>Thrust Vectoring</option>
+        <option>Air Traffic Control</option>
+        <option>A-10 Thunderbolt II</option>
+        <option>Quest 2 Standalone</option>
+    </select>
+
+    </br> </br>
+
+    <div class="msglink-flex">
+        <label for="discordlink" id="discordlink-label">Message Link</label> </br>
+
+        <input oninput="validate_link()" type="text" id="discordlink"
+               placeholder="https://discord.com/channels/xxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx">
+
+        </br> <p id="link-msg"></p> </br>
+
+        <label for="msgtext">Message Text (Optional, character limit 300)</label> </br>
+        <textarea type="text" maxlength="300" id="msgtext" cols="80" rows="10"></textarea>
+
+        </br> </br>
+
+        <button id="submit_btn" onclick="submit()">Submit</button>
+    </div>
+</div>
 </body>
 </html>

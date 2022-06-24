@@ -28,13 +28,13 @@ function renderList() {
 
             <div class="random-msgs">
                 <div class="message">
-                    [RANDOM_MSG_1]
+                    [LAST_MSG_1]
                 </div>
                 <div class="message">
-                    [RANDOM_MSG_2]
+                    [LAST_MSG_2]
                 </div>
                 <div class="message">
-                    [RANDOM_MSG_3]
+                    [LAST_MSG_3]
                 </div>
             </div>
         </div>`.replace("[IMAGE_PATH]", image_path)
@@ -47,23 +47,32 @@ function renderList() {
             template = template.replace(" [SHOULDCROP]", "")
         }
 
-        if (count > 3) {
-            firstInt = getRandomInt(0, count)
-            secondInt = firstInt
-            while (secondInt == firstInt) {
-                secondInt = getRandomInt(0, count)
-            }
+        let tipsMsgs = category["tips"].filter((tip) => {
+            return tip["text"].length > 5
+        })
 
-            thirdInt = secondInt
+        tipsMsgs.sort((tipa, tipb) => {
+            return tipa["time"] - tipb["time"]
+        })
 
-            while (thirdInt == secondInt || thirdInt == firstInt) {
-                thirdInt = getRandomInt(0, count)
-            }
+        tipsMsgs.reverse()
 
-            template.replace("[RANDOM_MSG_1]", sanitize(tips[firstInt]["text"]))
-            template.replace("[RANDOM_MSG_2]", sanitize(tips[secondInt]["text"]))
-            template.replace("[RANDOM_MSG_3]", sanitize(tips[thirdInt]["text"]))
+        if (tipsMsgs.length > 0) {
+            template = template.replace("[LAST_MSG_1]", '"' + tipsMsgs[0]["text"] + '"')
+        } else {
+            template = template.replace("[LAST_MSG_1]", "Submit more tips to fill this box!")
+        }
 
+        if (tipsMsgs.length > 1) {
+            template = template.replace("[LAST_MSG_2]", '"' + tipsMsgs[1]["text"] + '"')
+        } else {
+            template = template.replace("[LAST_MSG_2]", "Submit more tips to fill this box!")
+        }
+
+        if (tipsMsgs.length > 2) {
+            template = template.replace("[LAST_MSG_3]", '"' + tipsMsgs[2]["text"] + '"')
+        } else {
+            template = template.replace("[LAST_MSG_3]", "Submit more tips to fill this box!")
         }
 
         document.getElementById("categories").innerHTML = document.getElementById("categories").innerHTML + template

@@ -147,6 +147,8 @@ body {
     background-color: transparent;
     color: var(--text-colour);
     border: var(--text-colour) 2px solid;
+
+    min-width: 200px;
 }
 
 .submit-button:hover {

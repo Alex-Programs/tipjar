@@ -15,7 +15,7 @@ class DatabaseManager():
                 f.write(json.dumps({
                     "categories": [
                         {
-                            "name": "F14",
+                            "name": "F-14 Tomcat",
                             "image": "F14.png",
                             "description": None,
                             "count": 0,
@@ -23,7 +23,7 @@ class DatabaseManager():
                             "circleCrop": True,
                         },
                         {
-                            "name": "AC130",
+                            "name": "AC-130",
                             "image": "AC130.png",
                             "description": None,
                             "count": 0,
@@ -47,15 +47,15 @@ class DatabaseManager():
                             "circleCrop": True,
                         },
                         {
-                            "name": "ATC",
+                            "name": "Air Traffic Control",
                             "image": "ATC.png",
-                            "description": "Air Traffic Control",
+                            "description": None,
                             "count": 0,
                             "tips": [],
                             "circleCrop": True,
                         },
                         {
-                            "name": "A-10",
+                            "name": "A-10 Thunderbolt II",
                             "image": "A-10.png",
                             "description": "A10 bEsT cAs AiRcRaFt",
                             "count": 0,
@@ -69,9 +69,9 @@ class DatabaseManager():
                             "count": 0,
                             "tips": [],
                             "circleCrop": False,
-                        }
+                        } # TO ADD A NEW AIRCRAFT CHANGE THIS AND MODIFY tips.json
                     ],
-                }))
+                }, indent=4))
 
         with open("tips.json") as f:
             return json.loads(f.read())
@@ -85,17 +85,30 @@ class DatabaseManager():
             f.write(json.dumps(self.tip_list, indent=4))
 
     def add_new_tip(self, messageid, text, category):
+        found = False
         for i in self.tip_list["categories"]:
             if i["name"] == category:
                 i["tips"].append(
                     {"uid": self.gen_random_id(), "messageid": messageid, "text": text, "time": time.time()})
 
+                i["count"] = i["count"] + 1
+
+                found = True
+                break
+
+        if not found:
+            return False
+
         self.dump_tips_to_file()
+
+        self.dumped_cache = None
+
+        return True
 
     def messageid_exists(self, messageid):
         for category in self.tip_list["categories"]:
             for tip in category["tips"]:
-                if tip["messageid"] == messageid:
+                if str(tip["messageid"]) == str(messageid):
                     return True
 
         return False
