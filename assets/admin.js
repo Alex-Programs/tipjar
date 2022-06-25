@@ -19,7 +19,9 @@ function renderTips() {
         }
     }
 
-    rawTips.sort((a, b) => {return a["time"] - b["time"]}).reverse()
+    rawTips.sort((a, b) => {
+        return a["time"] - b["time"]
+    }).reverse()
 
     console.log(rawTips)
 
@@ -41,11 +43,20 @@ function renderTips() {
         text = document.createElement("td")
         text.innerText = tip["text"]
 
+        link = document.createElement("td")
+
+        try {
+            link.innerText = tip["link"]
+        } catch (e) {
+            link.innerText = "None"
+        }
+
         row.appendChild(uid)
         row.appendChild(category)
         row.appendChild(messageid)
         row.appendChild(time)
         row.appendChild(text)
+        row.appendChild(link)
 
         document.getElementById("tipsTable").appendChild(row)
     })
