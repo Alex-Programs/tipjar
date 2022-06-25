@@ -8,6 +8,7 @@ db = DatabaseManager()
 
 app = Flask(__name__)
 
+
 @app.route("/")
 def index():
     return render_template("index.html")
@@ -27,6 +28,7 @@ def get_list():
 def send_assets(path):
     return send_from_directory("assets/", path)
 
+
 @app.route("/existing_url")
 def check_existing_url():
     mid = request.args.get("messageid")
@@ -40,6 +42,7 @@ def check_existing_url():
                 return "Message ID exists", 409
 
     return "Doesn't exist", 200
+
 
 @app.route("/submit_new", methods=["POST"])
 def submit_new():
@@ -57,10 +60,13 @@ def submit_new():
     if result == False:
         return "Something went wrong. Is the category valid?", 400
 
+    # wiped at midnight daily by a shell script. IPs (+ other info) only viewed and used for quietly blocking spammers if we get any.
     with open("logs.txt", "a") as f:
-        f.write(str(request.headers.get("CF-Connecting-IP")) + "::" + data["token"] + "::" + data["messageid"] + "::" + data["category"] + "::" + data["messagetext"] + "\n\n\n\n\n\n\n\n ---------- \n\n\n\n\n\n\n\n")
+        f.write(str(request.headers.get("CF-Connecting-IP")) + "::" + data["token"] + "::" + data["messageid"] + "::" +
+                data["category"] + "::" + data["messagetext"] + "\n\n\n\n\n\n\n\n ---------- \n\n\n\n\n\n\n\n")
 
     return "OK", 200
+
 
 @app.route("/get_keywords")
 def get_keywords():
@@ -79,6 +85,7 @@ def admin():
 
     return render_template("admin.html")
 
+
 @app.route("/admin_delete", methods=["POST"])
 def admin_delete():
     with open("admin_pwd.txt") as f:
@@ -90,6 +97,7 @@ def admin_delete():
     db.remove_by_id(uid)
 
     return "Done. Maybe."
+
 
 HOST = "0.0.0.0"
 PORT = 8075
