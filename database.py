@@ -42,13 +42,13 @@ class DatabaseManager():
                             "keywords": ["Two seat", "Back seat", "Multi seat", "Rear seat", "Dual seat", "Multiseat"],
                         },
                         {
-                            "name": "Thrust Vectoring",
-                            "image": "thrustvectoring.webp",
+                            "name": "Misc. New Aircraft",
+                            "image": "newaircraft.webp",
                             "description": None,
                             "count": 0,
                             "tips": [],
                             "circleCrop": True,
-                            "keywords": ["Thrust vectoring", "vectored"],
+                            "keywords": ["New aircraft", "Next aircraft", "Next plane", "new Plane"],
                         },
                         {
                             "name": "Air Traffic Control",

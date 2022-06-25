@@ -107,15 +107,24 @@
             ]
         },
         {
-            "name": "Thrust Vectoring",
-            "image": "thrustvectoring.webp",
+            "name": "Misc. New Aircraft",
+            "image": "newaircraft.webp",
             "description": null,
-            "count": 0,
-            "tips": [],
+            "count": 1,
+            "tips": [
+                {
+                    "uid": "7ee7e5b057b5d80874dc08323e673392c04e3c55824f589b3aa47244a68de316",
+                    "messageid": "990294275705159700",
+                    "text": "not to be a pain in the arse but do the devs have any plans of releasing new aircraft (whether fixed or rotary wing) in the near future?",
+                    "time": 1656176055.2828214
+                }
+            ],
             "circleCrop": true,
             "keywords": [
-                "Thrust vectoring",
-                "vectored"
+                "New aircraft",
+                "Next aircraft",
+                "Next plane",
+                "new Plane"
             ]
         },
         {
