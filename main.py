@@ -55,7 +55,7 @@ def submit_new():
     if len(data["messagetext"]) > 300:
         return "Message text too long", 400
 
-    result = db.add_new_tip(data["messageid"].strip(), data["messagetext"].strip(), data["category"])
+    result = db.add_new_tip(data["messageid"].strip(), data["messagetext"].strip(), data["category"], data["fulllink"])
 
     if result == False:
         return "Something went wrong. Is the category valid?", 400

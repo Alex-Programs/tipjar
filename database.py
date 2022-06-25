@@ -8,6 +8,22 @@ class DatabaseManager():
     def __init__(self):
         self.tip_list = self.load_tips_from_file()
         self.dumped_cache = None
+        self.regenerate_counts()
+
+    def regenerate_counts(self):
+        broken = False
+
+        for category in self.tip_list["categories"]:
+            count = 0
+            for tip in category["tips"]:
+                count += 1
+
+            if category["count"] != count:
+                category["count"] = count
+                broken = True
+
+        if broken:
+            self.dump_tips_to_file()
 
     def load_tips_from_file(self):
         if not os.path.isfile("tips.json"):
@@ -100,12 +116,12 @@ class DatabaseManager():
         with open("tips.json", "w") as f:
             f.write(json.dumps(self.tip_list, indent=4))
 
-    def add_new_tip(self, messageid, text, category):
+    def add_new_tip(self, messageid, text, category, fulllink):
         found = False
         for i in self.tip_list["categories"]:
             if i["name"] == category:
                 i["tips"].append(
-                    {"uid": self.gen_random_id(), "messageid": messageid, "text": text, "time": time.time()})
+                    {"uid": self.gen_random_id(), "messageid": messageid, "text": text, "time": time.time(), "link": fulllink})
 
                 i["count"] = i["count"] + 1
 
@@ -132,9 +148,10 @@ class DatabaseManager():
     def remove_by_id(self, uid):
         for category in self.tip_list["categories"]:
             for tip in category["tips"]:
-
                 if str(tip["uid"]).strip() == str(uid).strip():
                     category["tips"].remove(tip)
+                    category["count"] = category["count"] - 1
+
                     self.dump_tips_to_file()
                     self.dumped_cache = None
                     return True

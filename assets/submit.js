@@ -70,7 +70,8 @@ function submit() {
             "category": document.getElementById("category").value,
             "messageid": window.currentMessageID,
             "messagetext": document.getElementById("msgtext").value,
-            "token": browserid()
+            "token": browserid(),
+            "fulllink": document.getElementById("discordlink").value
         })
     }).then((res) => {
         if (res.status === 200) {
