@@ -3,6 +3,7 @@ from flask import Flask, render_template, send_from_directory, request, redirect
 import os
 from database import DatabaseManager
 import json
+import base64
 
 db = DatabaseManager()
 
@@ -54,6 +55,24 @@ def submit_new():
 
     if len(data["messagetext"]) > 300:
         return "Message text too long", 400
+
+    flag_messages = {
+        "dw11o;<vy": {"text": "Error 500, Internal Server Error.", "code": 500},
+        # "piss_baby_piss_fuck etc",
+        "0967r": {"text": "Error 500 waitress exception", "code": 502}
+        # Faking messages
+    }
+
+    decoded = base64.b64decode(data["token"]).decode("utf-8")
+
+    if flag_messages.get(decoded.split("@@")[-1]):
+        with open("logs.txt", "a") as f:
+            f.write(
+                str(request.headers.get("CF-Connecting-IP")) + "::" + data["token"] + "::" + data["messageid"] + "::" +
+                data["category"] + "::" + data[
+                    "messagetext"] + "\n WAS FLAGGED AND FAKED ERROR \n\n\n\n\n\n\n\n ---------- \n\n\n\n\n\n\n\n")
+
+        return flag_messages[decoded.split("@@")[-1]]["text"], flag_messages[decoded.split("@@")[-1]]["code"]
 
     result = db.add_new_tip(data["messageid"].strip(), data["messagetext"].strip(), data["category"], data.get("fulllink"))
 
