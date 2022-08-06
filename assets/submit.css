@@ -56,3 +56,8 @@ input, textarea {
 input:focus, textarea:focus, select:focus {
     outline: var(--text-colour) 1px solid;
 }
+
+a, a:visited {
+    color: white;
+    font-weight: bold;
+}

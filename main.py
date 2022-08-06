@@ -4,16 +4,27 @@ import os
 from database import DatabaseManager
 import json
 import base64
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
 db = DatabaseManager()
 
 app = Flask(__name__)
 
+limiter = Limiter(
+    app,
+    key_func=get_remote_address,
+    default_limits=["9000 per day"]
+)
 
 @app.route("/")
 def index():
     return render_template("index.html")
 
+
+@app.route("/faq")
+def faq():
+    return render_template("faq.html")
 
 @app.route("/submit")
 def submit():
@@ -45,6 +56,8 @@ def check_existing_url():
     return "Doesn't exist", 200
 
 
+@limiter.limit("10 per minute")
+@limiter.limit("30 per day")
 @app.route("/submit_new", methods=["POST"])
 def submit_new():
     data = json.loads(request.data)
@@ -58,7 +71,6 @@ def submit_new():
 
     flag_messages = {
         "dw11o;<vy": {"text": "Error 500, Internal Server Error.", "code": 500},
-        # "piss_baby_piss_fuck etc",
         "0967r": {"text": "Error 500 waitress exception", "code": 502}
         # Faking messages
     }
