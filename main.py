@@ -11,6 +11,11 @@ db = DatabaseManager()
 
 app = Flask(__name__)
 
+limiter = Limiter(
+    app,
+    key_func=get_remote_address,
+    default_limits=["9000 per day"]
+)
 
 def get_cf_address():
     if request.headers.get("CF-Connecting-IP"):
@@ -29,6 +34,10 @@ with open("captcha_secret.txt") as f:
 def index():
     return render_template("index.html")
 
+
+@app.route("/faq")
+def faq():
+    return render_template("faq.html")
 
 @app.route("/submit")
 def submit():
@@ -79,7 +88,6 @@ def submit_new():
 
     flag_messages = {
         "dw11o;<vy": {"text": "Error 500, Internal Server Error.", "code": 500},
-        # "piss_baby_piss_fuck etc",
         "0967r": {"text": "Error 500 waitress exception", "code": 502}
         # Faking messages
     }

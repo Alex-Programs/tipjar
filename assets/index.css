@@ -140,13 +140,13 @@ body {
     }
 }
 
-.submit-box {
+.submit-box, .faq-box {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.submit-button {
+.submit-button, .faq-button {
     height: 40px;
     background-color: transparent;
     color: var(--text-colour);
@@ -155,7 +155,7 @@ body {
     min-width: 200px;
 }
 
-.submit-button:hover {
+.submit-button:hover, .faq-button:hover {
     background-color: var(--text-colour);
     color: var(--darkgrey);
 }
@@ -166,4 +166,15 @@ body {
 
 #github {
     color: white;
+}
+
+.faq-text {
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+}
+
+a, a:visited {
+    color: white;
+    font-weight: bold;
 }
