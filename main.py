@@ -11,18 +11,17 @@ db = DatabaseManager()
 
 app = Flask(__name__)
 
-limiter = Limiter(
-    app,
-    key_func=get_remote_address,
-    default_limits=["9000 per day"]
-)
-
 def get_cf_address():
     if request.headers.get("CF-Connecting-IP"):
         return request.headers.get("CF-Connecting-IP")
     else:
         return "DirectToOrigin"
 
+limiter = Limiter(
+    app,
+    key_func=get_cf_address,
+    default_limits=["9000 per day"]
+)
 
 limiter = Limiter(app, key_func=get_cf_address, default_limits=["1000 per day"], storage_uri="memory://")
 
