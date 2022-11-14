@@ -1,0 +1,1388 @@
+{
+    "categories": [
+        {
+            "name": "F-14 Tomcat",
+            "image": "F14.webp",
+            "description": null,
+            "count": 1632,
+            "circleCrop": true,
+            "keywords": [
+                "F14",
+                "F-14",
+                "Tomcat"
+            ],
+            "tips": [
+                {
+                    "uid": "0112a30edae07bb819595d21e661c06f14519f309e0009bfeca5e6f88fbb355a",
+                    "messageid": "989602775895785643",
+                    "text": "f-14 would be awesome",
+                    "time": 1656081341.8651087
+                },
+                {
+                    "uid": "e2f148939a779b4fd603aab747fe0eca11c88037005927cb9057df0f03464f64",
+                    "messageid": "989439185301688330",
+                    "text": "Hey, VtolVR devs. Is there any plans on making a Variable Geometry aircraft like the F-14 or MiG-23 into the game, or even adding the Jetborne jet into the game with hard points?",
+                    "time": 1656082793.3301039
+                },
+                {
+                    "uid": "f1075171259c201946bacedef9d62a6f23a5dc48e9fb19fbeb22daf3a57ffa8e",
+                    "messageid": "988942307661320192",
+                    "text": "https://steamcommunity.com/app/667970/discussions/0/3187992337826257369/?tscn=1655517040\n\nEven if it's a copy paste FA-26B but 2 seater we'll buy it, just take our money already its just laying there for you up for grabs, we're counting on you",
+                    "time": 1656083162.7090845
+                },
+                {
+                    "uid": "2d1a899b3df2622c517e4960ac75ab447712d83e1d36e2af7f071f4c4c9ddde9",
+                    "messageid": "988569428155334686",
+                    "text": "does anyone think there should be more old planes like the F-14?",
+                    "time": 1656083240.3060236
+                },
+                {
+                    "uid": "2b36d7b9848080d0f04e504cc844c15edf557451493bc8a4afd7dbe443031a4f",
+                    "messageid": "989935209078202418",
+                    "text": "",
+                    "time": 1656089922.6832724
+                },
+                {
+                    "uid": "e2d49ddbcf74cb86801605de87d19de9fabbfc7da78578c26b64f59ce19e031e",
+                    "messageid": "988537708492238978",
+                    "text": "wish we could have some 2 seat jets for multiplayer/co-op missions with friends",
+                    "time": 1656093562.1381083
+                },
+                {
+                    "uid": "0f72e2ea7065d7e4ea1b567d17c8a03dd0cd5a18e6ff87b492e037b4669b39b9",
+                    "messageid": "987372294408110100",
+                    "text": "VTOL needs to make a 2 seater jet",
+                    "time": 1656093595.9125814
+                },
+                {
+                    "uid": "15a6f8a566dbcdf15ccaef4037ec1ff46236f8d3ada5328aabf4a7061f0b3f4f",
+                    "messageid": "989982458562904114",
+                    "text": "anyway back to why I cam here, I wonder how technically complicated it would be to create a 2 seater fixed wing such as an F14?",
+                    "time": 1656100653.0273943
+                },
+                {
+                    "uid": "9100c4e29017bc40c2ea903a09269410b9be2ee659c3e3678c7f0be2f9b1d9ef",
+                    "messageid": "990310091465052170",
+                    "text": "OMG I want the f-14 so bad in vtol \ud83e\udd23\ud83e\udd72",
+                    "time": 1656178855.0598667
+                },
+                {
+                    "uid": "70d9c118d3b40358891533d3a39a8907018ae8a1e9329c0d601ad6b3849f871c",
+                    "messageid": "980263284043292722",
+                    "text": "",
+                    "time": 1656182811.7105343
+                },
+                {
+                    "uid": "2102400d71a2b813654012201d07de5ba657f66d78c7384792ebf556243f9180",
+                    "messageid": "967625412068909127",
+                    "text": "",
+                    "time": 1656182846.365006
+                },
+                {
+                    "uid": "8c354d7988b620e5b98ffd33cb50035b9b99608f1f6f752248ac2a410f4fada8",
+                    "messageid": "929610532204478484",
+                    "text": "",
+                    "time": 1656183153.6416013
+                },
+                {
+                    "uid": "cc64c9140766b8d17449ae489ce75dd9cf1caebb6ab67f2d25568ccce6fde745",
+                    "messageid": "827625510779093042",
+                    "text": "",
+                    "time": 1656183214.9779525
+                },
+                {
+                    "uid": "ed6bfd9d36a86af2eafdb4f3bee47ac7b22fd451d4e17c42f95e38b8dccbfa6d",
+                    "messageid": "991455612716187729",
+                    "text": "",
+                    "time": 1656452042.3923597,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/991455612716187729"
+                },
+                {
+                    "uid": "0a53da643ac9572dcf67e68e64b108d5852ab25a5a73594a5507f07a31ddd478",
+                    "messageid": "991456523458990110",
+                    "text": "",
+                    "time": 1656452088.991974,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/991456523458990110"
+                },
+                {
+                    "uid": "19810093e7c96e6b060adb0e3443b095224b4ace754e70552c2839d75cabac24",
+                    "messageid": "991456624717860915",
+                    "text": "Like... F14 YEAAAAAAH BRRRRT MAVERICK GOOSE GO BOOM HAHA",
+                    "time": 1656452108.7019742,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/991456624717860915"
+                },
+                {
+                    "uid": "01015416d37816386d0b1e1fc22c205d339e2d13c0b718d471314d32d25e6c24",
+                    "messageid": "991828148457050143",
+                    "text": "",
+                    "time": 1656540817.975754,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/991828148457050143"
+                },
+                {
+                    "uid": "95d39f43f91146124cfcfb85addafe1f763bce2535f5d4c0d2439946cbab75da",
+                    "messageid": "992179794622038056",
+                    "text": "",
+                    "time": 1656624563.101113,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/992179794622038056"
+                },
+                {
+                    "uid": "5b4565dd2ab00f958254514b861e8d35f1498c3322491924c2a7dcfe3f042fb1",
+                    "messageid": "992713836345954344",
+                    "text": "tomcat 2 seater in vtol wen?????",
+                    "time": 1656751990.3734207,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/992713836345954344"
+                },
+                {
+                    "uid": "a1dbf93f03e6b38f0073b25280bf9376cf0933b6b04982dff2bc0004dcab97c7",
+                    "messageid": "993591387519991859",
+                    "text": "for sure the best",
+                    "time": 1656961067.4099917,
+                    "link": "https://discord.com/channels/857729560463409182/857998401504673792/993591387519991859"
+                },
+                {
+                    "uid": "29b45a475964f66282717cd3eb7ff5459eb6212dbfe4a2c1497f287f11284c0b",
+                    "messageid": "993941708020645909",
+                    "text": "f22 or f14",
+                    "time": 1657044646.651361,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/993941708020645909"
+                },
+                {
+                    "uid": "41b1dc2ea167a6327d37f203883c23733daff8502098ae93355b0b349ce44b64",
+                    "messageid": "994421438935220264",
+                    "text": "",
+                    "time": 1657159374.1308284,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/994421438935220264"
+                },
+                {
+                    "uid": "8b0120c5512df2f9bb0cf54b9ae93d7a7c221508a1a62973b249f1c73c3d294f",
+                    "messageid": "995159227763015720",
+                    "text": "",
+                    "time": 1657335198.2679868,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/995159227763015720"
+                },
+                {
+                    "uid": "77fb9554e5331822f001e6a1e1a572a6fd23a7331b921b8005737ff4c1d445d6",
+                    "messageid": "996141806142107688",
+                    "text": "There should be a double seated jet, like the f-4, or f-14 where the person in the back controls radio and such.",
+                    "time": 1657569305.081614,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/996141806142107688"
+                },
+                {
+                    "uid": "be3df3b31d3d2542144483a7ea2293b9e4cce0bd1ee1fff59d128db2b66b952b",
+                    "messageid": "997071798996840468",
+                    "text": "It would be really cool to see a jet like the f-14 where the wings go out and in",
+                    "time": 1657791098.4702914,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/997071798996840468"
+                },
+                {
+                    "uid": "f6d1f2a2a9e4c1078d84a68dd8f840e557e220bf7efb561361fe98fbdb69ecca",
+                    "messageid": "2222",
+                    "text": "The next vehicle I'd pay money for would be\n-Multi seat\n-Multi role\n-variable wing geo\n-EW equipped\n-with a TSD",
+                    "time": 1658190745.7512968,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/2222"
+                },
+                {
+                    "uid": "011129ceff8b7ef47a0816a65d5256cd440eb26e1c96cbebd8542369cd78fa8a",
+                    "messageid": "999143728067399700",
+                    "text": "",
+                    "time": 1658284844.9117384,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/999143728067399700"
+                },
+                {
+                    "uid": "bbd32f1be33d30a26712ef5518e74f333be018c4c8eba108a9fbe9a605b20917",
+                    "messageid": "999545503240966144",
+                    "text": "I really want a plane like the f-14 in this game",
+                    "time": 1658380648.0180278,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/999545503240966144"
+                },
+                {
+                    "uid": "d84902b570cb827e963e6fadf24624ad0576255d357430abc5ac86b470a7a241",
+                    "messageid": "1000626893646745680",
+                    "text": "",
+                    "time": 1658638535.1293082,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1000626893646745680"
+                },
+                {
+                    "uid": "f01d938385e00c9a9872ec3fb0cac6b60ee73afd0e837fc50460478df2c85b96",
+                    "messageid": "1000929844403654747",
+                    "text": "",
+                    "time": 1658710987.443396,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1000929844403654747"
+                },
+                {
+                    "uid": "3901e32367f2a47f9ac698329387ac8bd7d4754d11c7b59062871d37e7c0226a",
+                    "messageid": "1000934532263985232",
+                    "text": "\"So when are we getting the f14 and a10 again?\"",
+                    "time": 1658711862.1901767,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1000934532263985232"
+                },
+                {
+                    "uid": "d71b4f88c7df02fe55a5a84fb0f0688fcccaa69aea22c71105d1d4c4e8cb158b",
+                    "messageid": "1001253961287872562",
+                    "text": "",
+                    "time": 1658788006.3533947,
+                    "link": "https://discord.com/channels/991958646156177458/1000967262238425179/1001253961287872562"
+                },
+                {
+                    "uid": "0902617be4b1c2443dc5fecc91ac183cd721323148efc4d3b69df70f7ea4ca2d",
+                    "messageid": "1001413771706777641",
+                    "text": "You know I\u2019d kinda like to see an addition of an F-14D Tomcat for Duos. [cont.]",
+                    "time": 1658835722.2974794,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1001413771706777641"
+                },
+                {
+                    "uid": "058499fe3e8ad596201bbe722ab6558775c9995bb045ed83adb69d61b5d61f79",
+                    "messageid": "1002414542044790894",
+                    "text": "",
+                    "time": 1659064866.7939043,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1002414542044790894"
+                },
+                {
+                    "uid": "a170efc8ad2605e7e6a069a1a2080f554d6cc1d2050c2f7ab293769153a19524",
+                    "messageid": "1002649343838404789",
+                    "text": "I think the F-14 would be cool for multiplayer",
+                    "time": 1659120974.4496589,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1002649343838404789"
+                },
+                {
+                    "uid": "a58ccadc866814c0967aa2219d6d4cda44961e9d160c4f685a58ceced5e28726",
+                    "messageid": "1003043795404865677",
+                    "text": "",
+                    "time": 1659214736.9110188,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1003043795404865677"
+                },
+                {
+                    "uid": "22e7eb49f5e49c92364efd5a1c73ad1f435138a03d15925859106bd0bc95a9f7",
+                    "messageid": "1005227733497958552",
+                    "text": "F14 when?",
+                    "time": 1659735392.852869,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1005227733497958552"
+                },
+                {
+                    "uid": "2a8bafb86919a76b9a3582a04253c83b76e09fb36ae1d79f84d2bb7442b4dec5",
+                    "messageid": "1005475214940975144",
+                    "text": "Add the f14",
+                    "time": 1659794408.7983642,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1005475214940975144"
+                },
+                {
+                    "uid": "a572fa89b8125691d3b7004c03cc5da54e7243ff2e1a11bf62d11114a2480c96",
+                    "messageid": "1005475440107982878",
+                    "text": "F14",
+                    "time": 1659794447.9734142,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1005475440107982878"
+                },
+                {
+                    "uid": "ec121d6de4623d7bdb7e325ca11dcb039f5e40e54a05ae5910a5a252f84bf19a",
+                    "messageid": "1005529293322981386",
+                    "text": "F14 mod? Where",
+                    "time": 1659807357.1252127,
+                    "link": "https://discord.com/channels/597153468834119710/597153468834119714/1005529293322981386"
+                },
+                {
+                    "uid": "71e71b085ba62a4ff150eeafe15e896abe1ec51b9fe0b6847f8bd1ee35c01395",
+                    "messageid": "1005898545947234445",
+                    "text": "I hope they add a 2 seater fixes wing like the f-14",
+                    "time": 1659895361.3315985,
+                    "link": "https://discord.com/channels/319915885575798785/622107546085359616/1005898545947234445"
+                },
+                {
+                    "uid": "65d631376d11090a470ba31212f185aa3055e1871f71b95ca93c78f32d526be4",
+                    "messageid": "1005898669716938773",
+                    "text": "",
+                    "time": 1659895369.3447104,
+                    "link": "https://discord.com/channels/319915885575798785/622107546085359616/1005898669716938773"
+                },
+                {
+                    "uid": "93991b6567b088a870c80525eb62534bbf893eb418feb7f0f4c378e4d02b887e",
+                    "messageid": "1006645578609999883",
+                    "text": "Is A-10/F14 included in this \ud83e\udd23",
+                    "time": 1660073463.768939,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1006645578609999883"
+                },
+                {
+                    "uid": "eb160125c1c3208b720bacde92b6b1e92a4a639bb29551519ee1d92962e3081a",
+                    "messageid": "1006987871317667931",
+                    "text": "",
+                    "time": 1660155817.7051883,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1006987871317667931"
+                },
+                {
+                    "uid": "619fa3b4a1214d9cfa1816fdf2acc645e88bbb1d67b2d338edf46640f5f4435a",
+                    "messageid": "1007316000192077964",
+                    "text": "",
+                    "time": 1660233285.9102573,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1007316000192077964"
+                },
+                {
+                    "uid": "3ddce5875acf3e6ae24e0112a0da2e6c68dc9e5f0d8ff841d642569ba3230a8b",
+                    "messageid": "1007429524658597928",
+                    "text": "",
+                    "time": 1660260349.0718553,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1007429524658597928"
+                },
+                {
+                    "uid": "812bfd1ee7e17ccf474da13462f2874a64c581e64252cd273b32791e0e747fb8",
+                    "messageid": "1008024166278119534",
+                    "text": "tomcat when ?",
+                    "time": 1660402117.2183206,
+                    "link": "https://discord.com/channels/319915885575798785/622107701614477333/1008024166278119534"
+                },
+                {
+                    "uid": "358b2cd0ba92a2accd124f1b7b938c094835cf41220ca7f7c4abb28a95c8ff2a",
+                    "messageid": "1008026657564676188",
+                    "text": "Tomcat when Tomcat when Tomcat when Tomcat when\n-certified bozo",
+                    "time": 1660402786.4877627,
+                    "link": "https://discord.com/channels/319915885575798785/622107701614477333/1008026657564676188"
+                },
+                {
+                    "uid": "8fa8e992a7fa0fd093f48277cfb21c68251f2022ffd7d75ea32ad363b0befda3",
+                    "messageid": "1012039297018363914",
+                    "text": "That\u2019s what I meant like they should add something like an f-14",
+                    "time": 1661359390.91523,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1012039297018363914"
+                },
+                {
+                    "uid": "65e3bf4dbe73dde62e95cb1e6a0675f399a2b3addb6fa75f6ec1684d95867171",
+                    "messageid": "1012682129576054935",
+                    "text": "me want F-14 in game right Neow",
+                    "time": 1661512916.4820232,
+                    "link": "https://discord.com/channels/319915885575798785/622107546085359616/1012682129576054935"
+                },
+                {
+                    "uid": "fd264b979045ac6f2950612b22b18ed60734a554df4bfbb6db1c04534e8bf687",
+                    "messageid": "1014069908864241734",
+                    "text": "",
+                    "time": 1661848217.2075875,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1014069908864241734"
+                },
+                {
+                    "uid": "f172f81d5c6173a376523d0fd8f9f58b24517c7e9d59a3aa87f42405b431287f",
+                    "messageid": "1015708789321777263",
+                    "text": "i would love them to add a f-14 tomcat",
+                    "time": 1662234428.051904,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1015708789321777263"
+                },
+                {
+                    "uid": "d4296d13eb9e6a74454d3d3661f49e63b2394e42eef498365c5efeb03c9f124a",
+                    "messageid": "1016787341634961429",
+                    "text": "I want a two seat aircraft like a tomcat",
+                    "time": 1662491911.1471941,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1016787341634961429"
+                },
+                {
+                    "uid": "82b847f50d21380a582db8f8c9fd67b90483fe214e1ab09fa84d48732543e296",
+                    "messageid": "1017399813068836865",
+                    "text": "",
+                    "time": 1662637920.596681,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1017399813068836865"
+                },
+                {
+                    "uid": "d33b88542443d3768bf6e944d5617d311a95c025df7683efdeea831fd21f1107",
+                    "messageid": "1018570918047531048",
+                    "text": "Add a new fighter jet to the game, a cool feature to it would be making it two seater, like a F 14.  Would be a cool DLC.",
+                    "time": 1662916706.10189,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1018570918047531048"
+                },
+                {
+                    "uid": "977c20b7c42c6c7e5e120c91473c966e04777a35058211da072250cf26db82ad",
+                    "messageid": "1022199811920908348",
+                    "text": "I just want to suggest an f14 or something a plane with two seats similar to how the heli is would be badass",
+                    "time": 1663781859.301449,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1022199811920908348"
+                },
+                {
+                    "uid": "6bb764d173afc5077332ef22b1de39d80f5512dd34dde04584dc87e82719154f",
+                    "messageid": "1035634922607607838",
+                    "text": "just give baha muny to add f14",
+                    "time": 1666985111.514872,
+                    "link": "https://discord.com/channels/319915885575798785/622107546085359616/1035634922607607838"
+                },
+                {
+                    "uid": "00a254f6a6beef8629fbde83ef7efa28dd82be2a8ce4c12ffefe54ab328e2867",
+                    "messageid": "1037908772217180181",
+                    "text": "please make a plane with f-14 wings xd",
+                    "time": 1667588572.4698577,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1037908772217180181"
+                },
+                {
+                    "uid": "02ebd5bd8a92e2c29b33b1aec6ad9a3cd132dce69b6ccf5c1fd7a21407b7e087",
+                    "messageid": "1041064572628520990",
+                    "text": "I think BD should add an F14 style aircraft",
+                    "time": 1668279565.472863,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1041064572628520990"
+                }
+            ]
+        },
+        {
+            "name": "AC-130",
+            "image": "AC130.webp",
+            "description": null,
+            "count": 1569,
+            "circleCrop": true,
+            "keywords": [
+                "AC130",
+                "C130",
+                "AC-130",
+                "Gunship"
+            ],
+            "tips": [
+                {
+                    "uid": "da4da1c40255b74d1f8e0954c634f1342a97f61fdfce984a6a74d1681e3a88bb",
+                    "messageid": "988494072350113863",
+                    "text": "And like a ac-130* style air craft would be cool for like high altitude kind of bombardment where you can have like 4 people doing their thing where two are gunning, one is piloting, and another is manning ew to help jam missiles which flying the plane would be more of a high risk high reward",
+                    "time": 1656083826.6471186
+                },
+                {
+                    "uid": "01202a29ea4dfb24a8beb602f84ce78a5fba4017caeef027c35d101bec0fd29f",
+                    "messageid": "620756089918718015",
+                    "text": "I am horny for this jet  mmmmmmmmmmm",
+                    "time": 1656179637.0430958
+                },
+                {
+                    "uid": "402038da07d8e44f71b5caa65ab83704d6adb7627c0d0e25e2cd0dec62228124",
+                    "messageid": "991455882397356154",
+                    "text": "",
+                    "time": 1656451920.4665453,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/991455882397356154"
+                },
+                {
+                    "uid": "14d42b2bb3517f2429b12b21c4b8869ebf3d579075011f098b56e35c42f78db4",
+                    "messageid": "991479901435744387",
+                    "text": "I WANT AC130 PLEASE ADD IT WITH A YOKE TOO PWEASEEEE AND IF PEOPLE DONT LIKE IT ITS OPTIONAL TO CHANGE TO STICK :(((",
+                    "time": 1656457634.9736013,
+                    "link": "https://discord.com/channels/319915885575798785/444150937079250945/991479901435744387"
+                },
+                {
+                    "uid": "b99cf5c676c12a633eabcc6cb6d33402cd80fc3b0b1ec86585d78b1b218d5f8a",
+                    "messageid": "1003391976240074772",
+                    "text": "what if the add a ac 1 30 with multyplayer compatabilty and you can have 4 ppl in it 2 gunners two pilots and they make specific missions for it",
+                    "time": 1659297742.3418427,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1003391976240074772"
+                },
+                {
+                    "uid": "361e418c8eec3a653e85c867963cc2ddb07e6cb225cdf4598b88be331ebed8b3",
+                    "messageid": "1017890863193526343",
+                    "text": "honestly a ac-130 would be a cool addition",
+                    "time": 1662754524.3224266,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1017890863193526343"
+                },
+                {
+                    "uid": "7e8b3231ba94d5e4ea4c1b84cde033fa698fa2a6f64eefc9c4960795cfc32c2f",
+                    "messageid": "1026517208291082380",
+                    "text": "vtol ac 130 would be interesting lol",
+                    "time": 1664811195.7005339,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1026517208291082380"
+                },
+                {
+                    "uid": "449fa2d908fbf98d67e9b3ab6e5da1dbc60e4467a0632b0e8d7fc63383d3ac9b",
+                    "messageid": "1029744401989255240",
+                    "text": "What about an ac130, but with the awacs radar stuff? So it can shoot at ground targets after identifying air targets for the squadron",
+                    "time": 1665582911.5746515,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1029744401989255240"
+                }
+            ]
+        },
+        {
+            "name": "Two seat fixed wing",
+            "image": "Multiseat.webp",
+            "description": null,
+            "count": 1655,
+            "circleCrop": true,
+            "keywords": [
+                "Two seat",
+                "Back seat",
+                "Multi seat",
+                "Rear seat",
+                "Dual seat",
+                "Multiseat"
+            ],
+            "tips": [
+                {
+                    "uid": "b2237355f60c1b9a28f833bfe1ce95d3d538c80e783a7be0807e0f681d5096be",
+                    "messageid": "988281113090875392",
+                    "text": "Have a 2 seater fighter like the F-14 with a weapons officer in the back",
+                    "time": 1656083347.7137349
+                },
+                {
+                    "uid": "400b043a0aff3f5805158afb928c23111f2507aa193e176381c9c865a9380e98",
+                    "messageid": "986678635400405122",
+                    "text": "How much would you pay for a modded multicrew plane/F14? [redacted survey link]",
+                    "time": 1656083552.5927634
+                },
+                {
+                    "uid": "e986ac507b73d45fbfd66bdc79472a61cfd00b8711692278d544139bf3643b83",
+                    "messageid": "980265567485325402",
+                    "text": "I guess what I really want at its core is a two seat jet with ground radar",
+                    "time": 1656083748.454449
+                },
+                {
+                    "uid": "29d8f310cb4ae3bbeea85589054509f89882fdd54a6525df86a7b353427db05f",
+                    "messageid": "956477170014908477",
+                    "text": "do you think there will be a jet with two seat ?",
+                    "time": 1656083793.2673573
+                },
+                {
+                    "uid": "6b2c9019da6a69a22d847f851b0602419a55306df061db625858694b3d5e063a",
+                    "messageid": "986696887207874580",
+                    "text": "man we really need a two player cockpit plane",
+                    "time": 1656093450.7324965
+                },
+                {
+                    "uid": "47efc0ce820433fec78a80fa47c0433de1b3cd34675e6f7e96ecbd5ae10b69f0",
+                    "messageid": "990063408395214848",
+                    "text": "",
+                    "time": 1656119997.982854
+                },
+                {
+                    "uid": "d11ddc83b0420075ea87de93ab3bd423de2c21f9afb14dca572bddbddd4d3523",
+                    "messageid": "990069935709503558",
+                    "text": "",
+                    "time": 1656121502.851193
+                },
+                {
+                    "uid": "5b2f204339d2376cd9f929d8c8380c69ed09bcac7c815d45c042c3ee37157ed6",
+                    "messageid": "990069841534787675",
+                    "text": "",
+                    "time": 1656121739.1927772
+                },
+                {
+                    "uid": "ffe1e9125f4d290dd623a56470ddbcf9fcf55cfd6fedd15599b2930525ead885",
+                    "messageid": "990313180968419378",
+                    "text": "My name is Temperz87, and I approve this shit",
+                    "time": 1656179476.1355183
+                },
+                {
+                    "uid": "1c41019c337be3a2164ab89e2e8f1f768844428cb3a92446d6f75a82d7163752",
+                    "messageid": "990317902194442240",
+                    "text": "I really hope they add a 2 seater aircraft tho, would be awesome",
+                    "time": 1656180604.5470738
+                },
+                {
+                    "uid": "301e5453fd78d81e439818c9ee23e1589fc80b62a229febc768551d1dffd7ccd",
+                    "messageid": "985332397274959922",
+                    "text": "Will there be a Two seated jet?",
+                    "time": 1656182742.2682164
+                },
+                {
+                    "uid": "46105df2ec00f397086ffee2379bcfc33404df1d8ce68e80ac10f8760540cecc",
+                    "messageid": "966793117556678736",
+                    "text": "",
+                    "time": 1656182912.773351
+                },
+                {
+                    "uid": "edb30db503e07527a30a19e73cd65668dae6ab851850fd2df91d855616cea62b",
+                    "messageid": "966793215221055499",
+                    "text": "",
+                    "time": 1656182933.4805276
+                },
+                {
+                    "uid": "f928136e053801dc04b2e7e0eff1aec38efdbe8738cf60a0cdcb406bd45809c6",
+                    "messageid": "959156161653928016",
+                    "text": "",
+                    "time": 1656182957.3348475
+                },
+                {
+                    "uid": "3c4b303f4b13a217df626261cf1c2600fcf3d64e0d5a1ca9a65cc810ba36f4bd",
+                    "messageid": "950693933187485706",
+                    "text": "",
+                    "time": 1656182972.711779
+                },
+                {
+                    "uid": "8c5aa4ae4f818fcf1478e9fac2621a44416bb1c22f4a7d61c9d251d44504a528",
+                    "messageid": "950564544093229067",
+                    "text": "",
+                    "time": 1656182977.373896
+                },
+                {
+                    "uid": "4dab3161a189460cea37f8febddbb96759231e69ad8428a71078482696cd4595",
+                    "messageid": "950045318727229491",
+                    "text": "",
+                    "time": 1656182984.4837682
+                },
+                {
+                    "uid": "6695e789a8f66ad21ddf3b10d2b5bbcea808530d117140603c77898177b2ef94",
+                    "messageid": "947625311527391313",
+                    "text": "",
+                    "time": 1656182997.9417272
+                },
+                {
+                    "uid": "0dd2f1e8bf8ccc48e6529edc46e4dcd63287f26de008b470afd3cd643d976273",
+                    "messageid": "942849874565681162",
+                    "text": "",
+                    "time": 1656183007.3242614
+                },
+                {
+                    "uid": "df0c1f5de71ced9a31fa7f08165835c88049094a73e4233b240fa2ba81f06529",
+                    "messageid": "940178048710504478",
+                    "text": "",
+                    "time": 1656183013.2031898
+                },
+                {
+                    "uid": "57bfbe1816f8225057ba71cfa61f72daea11b2d7411876f98bc0865335c101ea",
+                    "messageid": "934205127605231686",
+                    "text": "",
+                    "time": 1656183026.6390195
+                },
+                {
+                    "uid": "31a826c6e7b874a06d63d3c9f5f48cfa6996b926289f050d405249247cd21d21",
+                    "messageid": "989450852475486240",
+                    "text": "",
+                    "time": 1656183269.829082
+                },
+                {
+                    "uid": "4a8ebb6eadb21dcc523ccc29953caebacb6d26ce79b904dfc15e42b718041697",
+                    "messageid": "987394620096909352",
+                    "text": "",
+                    "time": 1656183288.5337985
+                },
+                {
+                    "uid": "8aac4c3db6d5975d060f9d7f56f0e0ee344dd0f7f7797596a58200c01ff4835c",
+                    "messageid": "986454401260605450",
+                    "text": "",
+                    "time": 1656183309.4002142
+                },
+                {
+                    "uid": "61056d652e5a1d3e4f8fab88ab79419bf70fdad9a1a651b968d0eeae9f20c092",
+                    "messageid": "981812833501196308",
+                    "text": "",
+                    "time": 1656183340.3535624
+                },
+                {
+                    "uid": "4199a4e729debd71f01dce70be7bc9aedf119215e8cf9b46c1cd2612a995d637",
+                    "messageid": "979803906760671252",
+                    "text": "",
+                    "time": 1656183372.0285094
+                },
+                {
+                    "uid": "d47b1a11fd271238f1fc0f16f6f4317a43bedfc9b4b58aeff7fe5469ffe3d721",
+                    "messageid": "960389926367686686",
+                    "text": "",
+                    "time": 1656183393.5197866
+                },
+                {
+                    "uid": "056cc3b9bbd45664de019f6ca2afe38f05ffcc5f75b3f0814759c828257fa109",
+                    "messageid": "957441318181802016",
+                    "text": "",
+                    "time": 1656183400.4817307
+                },
+                {
+                    "uid": "3f719e82a63d0a1e2b295569669f126e92d14215e66fa4452fbb35c9e7245e96",
+                    "messageid": "950392231808892928",
+                    "text": "",
+                    "time": 1656183413.1768293
+                },
+                {
+                    "uid": "0127b136c4e382f5af4cb411b4e16bde131027c6435dba39a88cbc9f86e78e0d",
+                    "messageid": "932474883961663518",
+                    "text": "",
+                    "time": 1656183426.021516
+                },
+                {
+                    "uid": "6a9f4341c5fcee38ffdfa73b5917551628200df28197be97008d12c0cfbd1756",
+                    "messageid": "931793500201181195",
+                    "text": "",
+                    "time": 1656183451.87072
+                },
+                {
+                    "uid": "50d73feb89c0c7c7a7a690fb3d2eb829469269d37462d27c31680553b551b589",
+                    "messageid": "931736459323514891",
+                    "text": "",
+                    "time": 1656183456.4512403
+                },
+                {
+                    "uid": "c8af0c14f686a5d697dbc2ccd5e8b1f48ae8a6c33c238b1b122837fe339e740e",
+                    "messageid": "930424006706860033",
+                    "text": "",
+                    "time": 1656183465.2452333
+                },
+                {
+                    "uid": "ad0ca29847cf5250efbd060ab9e0d8a07525ab642856bf2ee853a28aa7ed6cc3",
+                    "messageid": "930111985381683272",
+                    "text": "",
+                    "time": 1656183478.6795323
+                },
+                {
+                    "uid": "86309607a19ed4f5a6c2c9fe5b388030ce464b483d488c9596caa71a3fdd21ee",
+                    "messageid": "990731418516729896",
+                    "text": "It would be so fun\nTo have a two seater",
+                    "time": 1656280014.7021759,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/990731418516729896"
+                },
+                {
+                    "uid": "06b67c7bcc732bda1f6e8efcc346cca5b454198f9fea04df9284a100037b57ba",
+                    "messageid": "991456371918766192",
+                    "text": "Fr I'd like a multicrew plane",
+                    "time": 1656452071.435061,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/991456371918766192"
+                },
+                {
+                    "uid": "ad095fd4b23f22b9ab2e752129a6ae0b2c70af137a38f0c2d3011f3f1255a934",
+                    "messageid": "992621281910460526",
+                    "text": "@Strikeeaglechase I have a suggestion for the game. I say there should be a second seat for the jets. It would be great to fly other people around XD. What do you think?",
+                    "time": 1656729987.120565,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/992621281910460526"
+                },
+                {
+                    "uid": "50f5ef9c2f6c8689d30d009196a6f5b7f2d115bdb08b9ac5dabfa10e9b3696a6",
+                    "messageid": "993244221450498138",
+                    "text": "Is anyone developing a plane with controls for both back and front seat? I know this is a niche, but it would be nice for schooling",
+                    "time": 1656878758.2709239,
+                    "link": "https://discord.com/channels/319915885575798785/622107701614477333/993244221450498138"
+                },
+                {
+                    "uid": "3f65c7e7d9caf66c7ab2f37081197f6ddb72bf01b73f0fee37fe868ccf9b8ee6",
+                    "messageid": "994331456040095815",
+                    "text": "a two seater bomber",
+                    "time": 1657137525.8270707,
+                    "link": "https://discord.com/channels/319915885575798785/622107701614477333/994331456040095815"
+                },
+                {
+                    "uid": "dc133f16c41d9e966b6bc11c14a126177ad3d95697e62e5140f83ef9077d9f3d",
+                    "messageid": "994391690704060426",
+                    "text": "nahh i want a 2 seater",
+                    "time": 1657156010.1718197,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/994391690704060426"
+                },
+                {
+                    "uid": "bce6c6998d0ea46690eb27e1aeb333d019c36c8dbf332619c467b60de4652776",
+                    "messageid": "995730024558772254",
+                    "text": "when they gonna add a 2 seater jet dawg",
+                    "time": 1657472238.2985516,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/995730024558772254"
+                },
+                {
+                    "uid": "274aef430568a28dac610fb954d7d27bec42a29fc97b0d97702265642946de26",
+                    "messageid": "995434732940697600",
+                    "text": "",
+                    "time": 1657482827.0043836,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/995434732940697600"
+                },
+                {
+                    "uid": "931a3dd1593285a4239b81dd6d7c297abff117e55b9f579b0c5dfa79e3eba807",
+                    "messageid": "996820910025744394",
+                    "text": "It would be really cool to get a two seater jet hope we get that one day",
+                    "time": 1657731235.3093977,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/996820910025744394"
+                },
+                {
+                    "uid": "bc46794dba478985306f3e291cfa31f8ed765b1d63b2d4b1bc7708ce3d0ba2f9",
+                    "messageid": "996859284090519653",
+                    "text": "when two seats jet \ud83d\ude42",
+                    "time": 1657740643.22054,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/996859284090519653"
+                },
+                {
+                    "uid": "9724ee712bff821c8653b9495e59f7d7358bc52155470407d7de3a9d8ec1a302",
+                    "messageid": "996860842668736572",
+                    "text": "when will there be 2 seated jets",
+                    "time": 1657740658.2222784,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/996860842668736572"
+                },
+                {
+                    "uid": "ff6e86af9ffc098b05f5e96dd55a569af76b3b081b9b2d99e6a1277cbd9499bd",
+                    "messageid": "998305159950123119",
+                    "text": "",
+                    "time": 1658084919.6812778,
+                    "link": "https://discord.com/channels/319915885575798785/622107546085359616/998305159950123119"
+                },
+                {
+                    "uid": "db81fb51916734c85c904cf2c111bb26f4c788cbea81f7da3b433273f44f6515",
+                    "messageid": "998679425463889920",
+                    "text": "Now we need multi-crew plane in VTOL",
+                    "time": 1658174247.6009922,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/998679425463889920"
+                },
+                {
+                    "uid": "8c0ca4508bb02ebf4c1eb906604db03cfd91dbec1a3389ddf6956713277d6aa8",
+                    "messageid": "999904787787157584",
+                    "text": "This has probably been said a million times already but more tandem aircraft would be cool especially like an Su-34 inspired one.\n*insert image of su-34*\n*insert image of su-34 cockpit*",
+                    "time": 1658467263.070036,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/999904787787157584"
+                },
+                {
+                    "uid": "98b15ba052e27206d50ac6c001570a30ec3728f721160549693199747981a7b3",
+                    "messageid": "1000189668123476078",
+                    "text": "",
+                    "time": 1658534228.8457096,
+                    "link": "https://discord.com/channels/319915885575798785/444150937079250945/1000189668123476078"
+                },
+                {
+                    "uid": "bd808d6fe9cb7006e60188432441f01aa1ed294e004fdeae623bda9c977314a9",
+                    "messageid": "1000191823517593660",
+                    "text": "",
+                    "time": 1658534800.4489565,
+                    "link": "https://discord.com/channels/319915885575798785/444150937079250945/1000191823517593660"
+                },
+                {
+                    "uid": "43733b4939e6d51cb2bdc0675263d31dc14164f867fdf7265f8030606c453f8d",
+                    "messageid": "1000627649523236885",
+                    "text": "F-111/Su-34 Multi-role Strike aircraft with side-by-side seating so you can hold hands with your friend. Make it somewhat complicated so there is a purpose for a co-pilot to reduce the workload.",
+                    "time": 1658693112.1194854,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1000627649523236885"
+                },
+                {
+                    "uid": "cdd018fff7dd8ac30ebff77cb0cd5512ff6f123389b979c9efcd29b31a5c3134",
+                    "messageid": "1001413771706777642",
+                    "text": "Not sure if any new vehicles are even planned at this point but as for jets we only have 1 seaters and a 2 seater would be really fun I\u2019d think since we only have the heli for that thus far and the Tomcat D wasnt a slouch by any means",
+                    "time": 1658835755.015515,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1001413771706777642"
+                },
+                {
+                    "uid": "a2d9c2de791ece0d8d69f5341d4d01874e29850104c0c2efc6518a1dada9ccc2",
+                    "messageid": "1002702244178829413",
+                    "text": "",
+                    "time": 1659133311.0741208,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1002702244178829413"
+                },
+                {
+                    "uid": "414760bd3e4aa86ac170604967ff25a09e99bc03811219da273b2b7216f22c00",
+                    "messageid": "1009202104839184415",
+                    "text": "now that we have 2 person helicopter, 2 person jet?",
+                    "time": 1660682984.3523886,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1009202104839184415"
+                },
+                {
+                    "uid": "a7fa8183a887b5b179e03d256e6331c39916f37d15a9475f34fbdb60c6d8e09c",
+                    "messageid": "1009458576412115004",
+                    "text": "I've been suggesting a F14-ish jet in the steam discussions since I bought this game because I thought the idea of a two seater jet would be very appreciated in this community",
+                    "time": 1660744130.8663583,
+                    "link": "https://discord.com/channels/319915885575798785/622107701614477333/1009458576412115004"
+                },
+                {
+                    "uid": "88dd22de65868a139dd4537e59d9d56e26eca15a049afa27eaff44ffaa97d7be",
+                    "messageid": "1011961666935726090",
+                    "text": "They should add a two person plane",
+                    "time": 1661340993.387981,
+                    "link": "https://discord.com/channels/319915885575798785/429501682670370827/1011961666935726090"
+                },
+                {
+                    "uid": "acea785fd46ae99e820e74bbb744fbf8488c0d0a3ccf0c3024bf79aaafbacf24",
+                    "messageid": "1012038971301302342",
+                    "text": "Who thinks there should be a two person aircraft",
+                    "time": 1661359337.4633744,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1012038971301302342"
+                },
+                {
+                    "uid": "df85a9158d101041c140f7af2533bc3887d8eb827e47ce1af460f262648df803",
+                    "messageid": "1014085673847894076",
+                    "text": "",
+                    "time": 1661848252.8149602,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1014085673847894076"
+                },
+                {
+                    "uid": "1be838e9cf0d93b6115f662993f3c1235a3cb5a226428414f6c7456365f5c678",
+                    "messageid": "1015298073146179665",
+                    "text": "I wonder if there ever will be a plane LIKE the F 14 with 2 people",
+                    "time": 1662137152.9197767,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1015298073146179665"
+                },
+                {
+                    "uid": "463437d7166d663aa399518524f75ff21151299a1a7daa68c2c81998f9125686",
+                    "messageid": "1015333963813900301",
+                    "text": "i think it would be cool if you added a b-2 spirit inspiered bomber to the game that could have two players in it like the AH-94",
+                    "time": 1662144911.7992213,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1015333963813900301"
+                },
+                {
+                    "uid": "92c42f7bf91db9b79ca4330ec327fd24f0d1b1e5b43f7c8096e6585d70a1c43e",
+                    "messageid": "1016726678283759637",
+                    "text": "um 2 seat jet is unique",
+                    "time": 1662476966.3166025,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1016726678283759637"
+                },
+                {
+                    "uid": "af28b6cae398da74029e2525eed0953f2f34d7358dbaf5d834f2cec53529d09d",
+                    "messageid": "1017749063531233390",
+                    "text": "When two seatr",
+                    "time": 1662721089.0070934,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1017749063531233390"
+                },
+                {
+                    "uid": "1d5107cdc64432b0b292a7e549073d5d648f01c99884b8c4943c9162c358903d",
+                    "messageid": "1017867263044485201",
+                    "text": "what if we could fly the radar craft and have someone else co pilot and operate the radar",
+                    "time": 1662748936.3797216,
+                    "link": "https://discord.com/channels/319915885575798785/622107701614477333/1017867263044485201"
+                },
+                {
+                    "uid": "00246619284e612bb99d667cc61a7068a4745997daaf2d4da6d78a63c82d7c7c",
+                    "messageid": "1017896305676267751",
+                    "text": "WE need 2 seater jets tbh",
+                    "time": 1662755831.3513863,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1017896305676267751"
+                },
+                {
+                    "uid": "c3b169ccb41e91136e9c47eaf3c19a52aa6a2aa3978f9a89f91dced8405e0659",
+                    "messageid": "1019025007332044832",
+                    "text": "but it would be sick as fuck to have a 2 seater jet",
+                    "time": 1663089039.8018901,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1019025007332044832"
+                },
+                {
+                    "uid": "c271ae9e66b05e99b6f04a41f56f12eb4f950a32e057ef7237f64aa460750a9e",
+                    "messageid": "1020720618322280568",
+                    "text": "Idk if its the dev that sees this but i love this game so much and i think clouds that you could go through could make the game 20x better.",
+                    "time": 1663487569.4505298,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1020720618322280568"
+                },
+                {
+                    "uid": "937fb5a5dd91901108fa4f5e472a1c6ebe054dabdce340df8f96b18288c3cdb9",
+                    "messageid": "1021175263339483227",
+                    "text": "I would like and f-15 style jet with two seats",
+                    "time": 1663545521.2174504,
+                    "link": "https://discord.com/channels/319915885575798785/622107701614477333/1021175263339483227"
+                },
+                {
+                    "uid": "2aa739e6ed84bebdc304caa2d88fa44abab50fc740d3a012e68dd0d38bd19b14",
+                    "messageid": "1021621646857097287",
+                    "text": "and i would love a duo seat bomber so much",
+                    "time": 1663644058.7293174,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1021621646857097287"
+                },
+                {
+                    "uid": "6ce6df85b7f8ba28214544a1bd11bbdb4f0e52a8ee4347197626482d673b4de2",
+                    "messageid": "1022914975280418866",
+                    "text": "Could there ever be a 2 seat jet?",
+                    "time": 1663952391.9827263,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1022914975280418866"
+                },
+                {
+                    "uid": "a0f5693a4814b7d1c13a127240ef136b7c804ea4e8b96ff72bc481274d4cb80d",
+                    "messageid": "1026446569039466516",
+                    "text": "Is there any chance we get a 2 seat fighter ?",
+                    "time": 1664795722.3029065,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1026446569039466516"
+                },
+                {
+                    "uid": "b4ee3f5d1240820f2240e34d31ff421353accaa79e1d27f42dbeb5f9f992bdec",
+                    "messageid": "1036757762518028308",
+                    "text": "a two-seater plane would be fun",
+                    "time": 1667252746.241668,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1036757762518028308"
+                }
+            ]
+        },
+        {
+            "name": "Misc. New Aircraft",
+            "image": "newaircraft.webp",
+            "description": null,
+            "count": 1545,
+            "circleCrop": true,
+            "keywords": [
+                "New aircraft",
+                "Next aircraft",
+                "Next plane",
+                "new Plane"
+            ],
+            "tips": [
+                {
+                    "uid": "7ee7e5b057b5d80874dc08323e673392c04e3c55824f589b3aa47244a68de316",
+                    "messageid": "990294275705159700",
+                    "text": "not to be a pain in the arse but do the devs have any plans of releasing new aircraft (whether fixed or rotary wing) in the near future?",
+                    "time": 1656176055.2828214
+                },
+                {
+                    "uid": "73275dc9b7048f4cca68fdf76a48282f0f9ff9f87ac3c5313321bdcf0673c157",
+                    "messageid": "990783356805464094",
+                    "text": "are the devs going to release another dlc/vehicle in the future?",
+                    "time": 1656292139.3283997,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/990783356805464094"
+                },
+                {
+                    "uid": "9a36dfa16f702160fa86d046211f6acc59d91e919abd833751c99a5f85a1ab17",
+                    "messageid": "991455516045881414",
+                    "text": "Hey what plane do you want next in vtol vr?",
+                    "time": 1656451871.5410676,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/991455516045881414"
+                },
+                {
+                    "uid": "4b1766b3a147b2b7985febf6d56e5633b9f75e166d0c2b259b96b71bfc98036c",
+                    "messageid": "994284838909640835",
+                    "text": "just sayin, an f22 or an f-16 would be pretty neat to start working on, the f22 doesn't have to be added since its a stealth aircraft and the f35 is pretty good at that already but it would make a great stealth fighter to be added in instead of a bomber or ground attack, Honestly though, I just want",
+                    "time": 1657126565.7164352,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/994284838909640835"
+                },
+                {
+                    "uid": "bbcceb4e17519e384fc8359315c96c17f3630402904d7f562dfc9458309080f3",
+                    "messageid": "994331057803493387",
+                    "text": "y'know a mod that I'd love to see? something that implements the enemy aircraft as playable",
+                    "time": 1657137477.5189047,
+                    "link": "https://discord.com/channels/319915885575798785/622107701614477333/994331057803493387"
+                },
+                {
+                    "uid": "fefb5546041c73e79742a20acd94e8d855b607b58b4e60b5021e7deeadeb3001",
+                    "messageid": "998376409154203729",
+                    "text": "honestly i just either want a harrier, maybe fa2 and or t6a texan because propeller",
+                    "time": 1658101982.5635843,
+                    "link": "https://discord.com/channels/319915885575798785/622107546085359616/998376409154203729"
+                },
+                {
+                    "uid": "50940a259dc3cc62a4e71c16154c9d664f269b3ba7ef1401ff598ab53b5a18db",
+                    "messageid": "999795966980931694",
+                    "text": "we need a huey",
+                    "time": 1658440587.6266887,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/999795966980931694"
+                },
+                {
+                    "uid": "797d50838aa6acb02681068fe975c1c46db53fab8c42a82731d37fa829fc4506",
+                    "messageid": "999809385545093271",
+                    "text": "Uav's",
+                    "time": 1658443896.2757568,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/999809385545093271"
+                },
+                {
+                    "uid": "982fbe16a17315424c4c2c216f76ab33d8b31a70e9e8f699c29dffaa449c02ad",
+                    "messageid": "1001066611039551501",
+                    "text": "Imagine if we had a supermaneuverable aircraft (like the SU-57) in VTOL vr",
+                    "time": 1658743987.535243,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1001066611039551501"
+                },
+                {
+                    "uid": "d2bb4d1f49385343936aff86ac267515aa43fc9bd757f4b678c2c236a135f209",
+                    "messageid": "1003178131353522246",
+                    "text": "A dedicated bomber would be fun",
+                    "time": 1659246797.342317,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1003178131353522246"
+                },
+                {
+                    "uid": "5f07f2394cf98a80881d12efb31414864d27d9b4247d52ff2865dcb4a377b62c",
+                    "messageid": "1005227773708750948",
+                    "text": "Honestly though I'd rather an F15",
+                    "time": 1659735412.1815732,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1005227773708750948"
+                },
+                {
+                    "uid": "a8ba37bf8b4ef9cfda7c3188b435e913190e68220c79f44dcfc00d5599e8ecc1",
+                    "messageid": "1005885350981410826",
+                    "text": "LETS GET A F22 IN THE GAME !!!!!!!!!",
+                    "time": 1659892263.8104494,
+                    "link": "https://discord.com/channels/319915885575798785/622107546085359616/1005885350981410826"
+                },
+                {
+                    "uid": "76716c16961fe8a5fb9fde0b901c2be177c599b923529a66980180cf21b118ce",
+                    "messageid": "1006024803767046195",
+                    "text": "Gimme the curvy SU-35 with the folding wings.",
+                    "time": 1659925456.180154,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1006024803767046195"
+                },
+                {
+                    "uid": "ac862285caffea7a6d33d5914b24df757004aeae4fad3eb1b278b7b3adb967a3",
+                    "messageid": "1007097516799561808",
+                    "text": "will there ever be any new planes / dlcs?",
+                    "time": 1660181312.579514,
+                    "link": "https://discord.com/channels/1000976631705382942/1000976633127243808/1007097516799561808"
+                },
+                {
+                    "uid": "b7eae9092b6c0dfb311fbd7157fda5c4bdf32b68ef60475de7d1827b3f680f13",
+                    "messageid": "1008057555177709758",
+                    "text": "pls add more planes like the su57 or b29\ud83d\ude4f",
+                    "time": 1660410649.5672414,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1008057555177709758"
+                },
+                {
+                    "uid": "1e2253551f79bc1387a61fbda31e1e38d3f5bc4b399f453756d62755cb0ef3b7",
+                    "messageid": "1008372525002129418",
+                    "text": "we need a f-22 mod \u26b0\ufe0f",
+                    "time": 1660485396.033158,
+                    "link": "https://discord.com/channels/597153468834119710/597153468834119714/1008372525002129418"
+                },
+                {
+                    "uid": "ba586b5d45de39069c0cbc7d2f007083594233aad0099a0843397012f3527863",
+                    "messageid": "1008398845073424425",
+                    "text": "like sweep wing would be nice",
+                    "time": 1660491508.1934824,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1008398845073424425"
+                },
+                {
+                    "uid": "ec4e1f08a691d78b3fb3d5bf8934295290bd0b4c0be696818f6e0fb791d97e7a",
+                    "messageid": "1010972695829168149",
+                    "text": "holy shit magaine if they added a chinook gunship with utility and gun functions crewed by 5 people",
+                    "time": 1661105098.4020715,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1010972695829168149"
+                },
+                {
+                    "uid": "ff3cbc42e3ab3dc8a19c77c95a2e2b16f20326ba5e520bc9fa5b59769bb645fd",
+                    "messageid": "1012957073463586827",
+                    "text": "could you maybe add a prop plane or a vietnam era fighter like the f4 or mig21",
+                    "time": 1661578872.1757627,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1012957073463586827"
+                },
+                {
+                    "uid": "7fcadaded3b5bd7ada56a76299b966452a7805176ba58ba731aa4955fe76a3cc",
+                    "messageid": "1017569471612858368",
+                    "text": "f-117 when",
+                    "time": 1662677967.710801,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1017569471612858368"
+                },
+                {
+                    "uid": "f7e967e895eede802ab824d7a790498a908d924e1c17c482de22d0ec9d9bef45",
+                    "messageid": "1017962763135492116",
+                    "text": "will there be new planes added?",
+                    "time": 1662774579.358939,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1017962763135492116"
+                },
+                {
+                    "uid": "636fc7149cea7af62fd92aa5a5f021d8886e70a18091aa5f923e8ef2905bd9a8",
+                    "messageid": "1018050265791877130",
+                    "text": "Do y\u2019all think the dev going to make a F-22 raptor?",
+                    "time": 1662792631.8862326,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1018050265791877130"
+                },
+                {
+                    "uid": "4b5e1bf57b5bbb4e6e7ca8b174a8ebf105acc5ee84fe5e1d798b531d090614b2",
+                    "messageid": "1025879064134811698",
+                    "text": "Implement the Darkstar aircraft",
+                    "time": 1664659053.3321726,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1025879064134811698"
+                },
+                {
+                    "uid": "1e267a0f71a9b8574e65a4851b8f2c33ce0d4e3efe08a5a01053761ae3033d46",
+                    "messageid": "1041155840222187588",
+                    "text": "We need da f16",
+                    "time": 1668301537.1826873,
+                    "link": "https://discord.com/channels/319915885575798785/622107701614477333/1041155840222187588"
+                }
+            ]
+        },
+        {
+            "name": "Air Traffic Control",
+            "image": "ATC.webp",
+            "description": null,
+            "count": 1602,
+            "circleCrop": true,
+            "keywords": [
+                "ATC",
+                "traffic control",
+                "JTAC"
+            ],
+            "tips": [
+                {
+                    "uid": "acd63aa470df3fdfe11be872996361182cbf6f99686c1b2ec7589478f233b2d4",
+                    "messageid": "989510685111251025",
+                    "text": "Has there been any mention of adding an observer role to play ATC or JTAC? It would be kind of cool if you could like attach it to things like ground parties or the tower back at base.",
+                    "time": 1656084038.202231
+                },
+                {
+                    "uid": "f41a9541eb5c95c8d3013a6995c2f50e7d7636cc81fe64451d8e2e43940670fb",
+                    "messageid": "986391030960111678",
+                    "text": "i genuinely think there should be some kinda ATC role for people who just want to vibe",
+                    "time": 1656084055.567922
+                },
+                {
+                    "uid": "c61f176ca50b2179601c74f2c28ddd2fdbcedb04a83b34d505a9fb1986108ee0",
+                    "messageid": "993592486347935844",
+                    "text": "Id love to have some roleplay involved in this!!!",
+                    "time": 1656961350.3177366,
+                    "link": "https://discord.com/channels/859412810538811402/859428026037829634/993592486347935844"
+                },
+                {
+                    "uid": "6371d92375882d88d76c8e05c44451d121492ed31174ffa35c2f8aa52394183d",
+                    "messageid": "1020766837409075311",
+                    "text": "Actually, having 1-3 people operating an aircraft carrier would be quite interesting.",
+                    "time": 1663601060.0087514,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1020766837409075311"
+                }
+            ]
+        },
+        {
+            "name": "A-10 Thunderbolt II",
+            "image": "A-10.webp",
+            "description": "A10 bEsT cAs AiRcRaFt",
+            "count": 1580,
+            "circleCrop": true,
+            "keywords": [
+                "A10",
+                "A-10",
+                "GAU-8",
+                "brrrr",
+                "rrrt",
+                "10C",
+                "CAS aircraft"
+            ],
+            "tips": [
+                {
+                    "uid": "bac72d1e69bef94b288106127310c7e693d6a44e39a8aa8d136d06cb0005b722",
+                    "messageid": "989396299264692224",
+                    "text": "A-10 when",
+                    "time": 1656084094.5727518
+                },
+                {
+                    "uid": "07ad725134aafb061c848f817d1f6097a069f946b53e35008a9a9aaec4969908",
+                    "messageid": "962180000923136031",
+                    "text": "add a-10 to vto",
+                    "time": 1656084197.5858195
+                },
+                {
+                    "uid": "bd42fb93823fa2788e70c2ab2f8a464dd736c2607817555cf41227611e0cfee9",
+                    "messageid": "745499573128003645",
+                    "text": "I know they have a GUA-8 but they should still add a A-10 warthog. Or someone mod it when models come out of possible",
+                    "time": 1656084224.163897
+                },
+                {
+                    "uid": "88234bed647736622578cc2d3c672a97a8ab746c1d1d7397e82c2eeb01f5c6aa",
+                    "messageid": "989690750981791767",
+                    "text": "does anyone know if the a-10d mod is coming back?",
+                    "time": 1656100546.5000026
+                },
+                {
+                    "uid": "02a29458f5d416d28bea606091d524842710fd3a98c6eeb426c5254d2ccd0964",
+                    "messageid": "990236073173082153",
+                    "text": "Big sad, my biggest wishlist is A10, F22 honestly",
+                    "time": 1656163912.3596725
+                },
+                {
+                    "uid": "cec39f3ca3c9a9bc221afe45530d2f6cfc1d711b4e39ad38bda120233ccc9478",
+                    "messageid": "993543529580212334",
+                    "text": "fix my fking a-10 brttt brtt skrt go weeeeee",
+                    "time": 1656949642.5333066,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/993543529580212334"
+                },
+                {
+                    "uid": "7ac1e1e22b7e2b35646f133107b8d7a26ad9c260747934f3fa643a4ec9d6c38c",
+                    "messageid": "997252606873325691",
+                    "text": "",
+                    "time": 1657834026.2656028,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/997252606873325691"
+                },
+                {
+                    "uid": "44846a2bc99e14ae3c8dff34b9c82816544ed10178d9a766f970abd64b04eb30",
+                    "messageid": "1003798775694889032",
+                    "text": "Awesome! I would love an A10 type aircraft in the game since I\u2019m a big DCS A10 fanboi",
+                    "time": 1659398663.0114963,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1003798775694889032"
+                },
+                {
+                    "uid": "188670221e4c0e5fa138d29def484fc90e7e53140150f8f482b7f29facad0183",
+                    "messageid": "1017085815391793212",
+                    "text": "I\u2019d love for the A10 to be in VTOL",
+                    "time": 1662562680.069232,
+                    "link": "https://discord.com/channels/1013146873730715789/1013146878721916962/1017085815391793212"
+                },
+                {
+                    "uid": "36f2e6d1502ab45ca87aa3aeff657b8f53b11aa983695f8f3251bd0c16e61d68",
+                    "messageid": "1026842382152515645",
+                    "text": "Wouldn\u2019t it be funny to have an a-10 in vtol ?",
+                    "time": 1664888948.7880282,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1026842382152515645"
+                }
+            ]
+        },
+        {
+            "name": "Quest 2 Standalone",
+            "image": "q2.webp",
+            "description": null,
+            "count": 1511,
+            "circleCrop": false,
+            "keywords": [
+                "Quest 2",
+                "standalone",
+                "oculus",
+                "store",
+                "native"
+            ],
+            "tips": [
+                {
+                    "uid": "3c32da80ead8a745228d7c4c6f65edb91084cdf53ce313be7030aadd3d6f1631",
+                    "messageid": "778159548065513502",
+                    "text": "So will VTOL VR ever be on Oculus Quest 2 natively?",
+                    "time": 1656084260.3771963
+                },
+                {
+                    "uid": "3831f06d90a2cc23c09012b007e83dc110edeec4bc6777b514cc33de76581ac6",
+                    "messageid": "959206902854742026",
+                    "text": "will vtol ever make its way to Oculus Store?",
+                    "time": 1656084280.9623659
+                },
+                {
+                    "uid": "5cc70412889921db2cb80da097cbb22231bae642c73cda593c515e7efde18190",
+                    "messageid": "842349432842354698",
+                    "text": "will vtol vr be in oculu quest 2 store?",
+                    "time": 1656084314.048337
+                },
+                {
+                    "uid": "93bba30e6ed8d40d1c3836f302648fd35422a445e676acf34db2bebb6475e1af",
+                    "messageid": "980568794198052885",
+                    "text": "Huge fan of the game. Would love to see this on quest 2 standalone.",
+                    "time": 1656084548.729692
+                },
+                {
+                    "uid": "fc5a3ab73447a74ffda00f950d57ca06e8b7b2967325442e8b1776d95a093c2f",
+                    "messageid": "992179491851997266",
+                    "text": "",
+                    "time": 1656624530.0019753,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/992179491851997266"
+                },
+                {
+                    "uid": "9b6d88b6474e0f898432bd03e61c0c875bf3ded5ccfca9d6b6723c281a20740b",
+                    "messageid": "994427323032031303",
+                    "text": "VTOL on quest 2 plsss",
+                    "time": 1657160386.1879861,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/994427323032031303"
+                },
+                {
+                    "uid": "1502b23d677ae2c4a3fb3a8b3cf8f589ad8922123d6b9ef823c17f27b764a97c",
+                    "messageid": "1026842194067324979",
+                    "text": "Also will vtol come to quest 2?",
+                    "time": 1664888963.13268,
+                    "link": "https://discord.com/channels/319915885575798785/319915885575798785/1026842194067324979"
+                },
+                {
+                    "uid": "e5bb6dec2197d6f9f7969d08d4370820923b0f262a05dfc4a1dc447434777a82",
+                    "messageid": "1041104974710591598",
+                    "text": "If it's possible to get vtol to run standalone on quest 2 I mean the bonelab devs did it",
+                    "time": 1668303868.2976203,
+                    "link": "https://canary.discord.com/channels/319915885575798785/319916002702000129/1041104974710591598"
+                }
+            ]
+        },
+        {
+            "name": "Electronic Warfare",
+            "image": "EWAR.webp",
+            "description": null,
+            "count": 1543,
+            "circleCrop": true,
+            "keywords": [
+                "EWAR",
+                "electronic warfare",
+                "EW",
+                "jamming",
+                "growler"
+            ],
+            "tips": [
+                {
+                    "uid": "36e6b9ef361747ed5d5165408cbecf817c26bf43f784c6550d4dfb0b259b5070",
+                    "messageid": "969601624861466644",
+                    "text": "Electronic warfare planes > all",
+                    "time": 1656085710.5630927
+                },
+                {
+                    "uid": "a4d552b8fa1880600fb758d8efdf40a2eb9c2d61fadd2621a655dbef5ccbca5c",
+                    "messageid": "986735846604554240",
+                    "text": "electronic warfare electronic warfare electronic warfare electronic warfare electronic warfare electronic warfare electronic warfare",
+                    "time": 1656085648.933857
+                },
+                {
+                    "uid": "bbe31eb9a8b39efa1eb1d513f3aede4c61b8a2402afb8682ac912b7949f82ca4",
+                    "messageid": "985793052113256450",
+                    "text": "An electronic warfare jet would be super cool",
+                    "time": 1656085661.9974308
+                },
+                {
+                    "uid": "91c453e1d61ee09a6c5e33b073f9d20b405166f9398c0c368921524862e2df52",
+                    "messageid": "22222",
+                    "text": "https://www.youtube.com/watch?v=0iQW2tolOag\n\nPlease steal this guys concept. EW would be perfect for this game",
+                    "time": 1658190580.044572,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/22222"
+                },
+                {
+                    "uid": "868c65d52cfb202a5967607495c49814cc40f15f965b9cead03c3803e22c1746",
+                    "messageid": "1026512969158373427",
+                    "text": "gib ewar plane",
+                    "time": 1664810223.3221536,
+                    "link": "https://discord.com/channels/319915885575798785/319916002702000129/1026512969158373427"
+                }
+            ]
+        }
+    ]
+}

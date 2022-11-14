@@ -17,7 +17,7 @@
 
     <script src="/assets/submit.js"></script>
 
-        <!-- Primary Meta Tags -->
+    <!-- Primary Meta Tags -->
     <meta name="title" content="VTOL VR Tip Jar | Submit">
     <meta name="description" content="Track how many times people have asked for the F-14, A-10, Quest 2 support, etc.">
 
@@ -68,23 +68,32 @@
     </br> </br>
 
     <div class="msglink-flex">
-        <label for="discordlink" id="discordlink-label">Message Link</label> </br>
+        <form action="" method="POST" id="mainform">
+            <label for="discordlink" id="discordlink-label">Message Link</label> </br>
 
-        <input oninput="validate_link()" type="text" id="discordlink"
-               placeholder="https://discord.com/channels/xxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx">
+            <input oninput="validate_link()" type="text" id="discordlink"
+                   placeholder="https://discord.com/channels/xxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx/xxxxxxxxxxxxxxxxxx">
 
-        </br> <p id="link-msg"></p> </br>
+            </br> <p id="link-msg"></p> </br>
 
-        <label for="msgtext">Message Text (Optional, character limit 300. Newlines are removed)</label> </br>
-        <textarea type="text" maxlength="300" id="msgtext" cols="80" rows="10" oninput="check_for_keywords()"></textarea>
+            <label for="msgtext">Message Text (Optional, character limit 300. Newlines are removed)</label> </br>
+            <textarea type="text" maxlength="300" id="msgtext" cols="80" rows="10"
+                      oninput="check_for_keywords()"></textarea>
 
-        </br>
+            </br>
 
-        <p id="warning_message"></p>
+            <p id="warning_message"></p>
 
-        </br>
+            </br>
 
-        <button id="submit_btn" onclick="submit()">Submit</button>
+            <div id="recaptcha-service" class="g-recaptcha"
+                 data-callback="recaptchaCallback"
+                 data-sitekey="6LfPKQYjAAAAAN40a4BnR9eDR4DmM_qmr3A-830I"></div>
+
+            <button id="submit_btn" type="submit" disabled>Submit</button>
+        </form>
+
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     </div>
 </div>
 </body>

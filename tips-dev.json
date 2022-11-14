@@ -4,7 +4,7 @@
             "name": "F-14 Tomcat",
             "image": "F14.webp",
             "description": null,
-            "count": 5,
+            "count": 6,
             "tips": [
                 {
                     "uid": "0112a30edae07bb819595d21e661c06f14519f309e0009bfeca5e6f88fbb355a",
@@ -35,6 +35,13 @@
                     "messageid": "989935209078202418",
                     "text": "",
                     "time": 1656089922.6832724
+                },
+                {
+                    "uid": "e1d4c995373391f0c1d60d08ed0e14f70ceb789d7e748d928e44836c26c2bbaa",
+                    "messageid": "1041421969091993713",
+                    "text": "fdsfdsfdsfds",
+                    "time": 1668419732.1286743,
+                    "link": "https://discord.com/channels/835714549545828352/835714549545828357/1041421969091993713"
                 }
             ],
             "circleCrop": true,

@@ -53,38 +53,42 @@ function isNumeric(value) {
 
 window.onload = () => {
     validate_link()
-}
 
-function submit() {
-    if (!window.valid_link) {
-        alert("The link is invalid!")
-        return
-    }
+    document.getElementById("mainform").addEventListener("submit", ((e) => {
+        e.preventDefault()
 
-    fetch("/submit_new", {
-        headers: {
-            "Content-Type": "application/json"
-        },
-        method: "POST",
-        body: JSON.stringify({
-            "category": document.getElementById("category").value,
-            "messageid": window.currentMessageID,
-            "messagetext": document.getElementById("msgtext").value,
-            "token": browserid(),
-            "fulllink": document.getElementById("discordlink").value
-        })
-    }).then((res) => {
-        if (res.status === 200) {
-            alert("Success!")
-
-            document.getElementById("msgtext").value = ""
-            document.getElementById("discordlink").value = ""
-        } else {
-            res.text().then((text) => {
-                alert("Something went wrong: " + text)
-            })
+        if (!window.valid_link) {
+            alert("The link is invalid!")
+            return
         }
-    })
+
+        fetch("/submit_new", {
+            headers: {
+                "Content-Type": "application/json"
+            },
+            method: "POST",
+            body: JSON.stringify({
+                "category": document.getElementById("category").value,
+                "messageid": window.currentMessageID,
+                "messagetext": document.getElementById("msgtext").value,
+                "token": browserid(),
+                "fulllink": document.getElementById("discordlink").value,
+                "recaptchaResponse": grecaptcha.getResponse()
+            })
+        }).then((res) => {
+            if (res.status === 200) {
+                alert("Success!")
+
+                location.reload()
+            } else {
+                res.text().then((text) => {
+                    alert("Something went wrong: " + text)
+                })
+            }
+        })
+    }))
+
+    document.getElementById("submit_btn").disabled = false;
 }
 
 function browserid() {

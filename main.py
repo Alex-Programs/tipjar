@@ -4,10 +4,25 @@ import os
 from database import DatabaseManager
 import json
 import base64
+from flask_limiter import Limiter
+import requests
 
 db = DatabaseManager()
 
 app = Flask(__name__)
+
+
+def get_cf_address():
+    if request.headers.get("CF-Connecting-IP"):
+        return request.headers.get("CF-Connecting-IP")
+    else:
+        return "DirectToOrigin"
+
+
+limiter = Limiter(app, key_func=get_cf_address, default_limits=["1000 per day"], storage_uri="memory://")
+
+with open("captcha_secret.txt") as f:
+    captcha_secret = f.readlines()[0]
 
 
 @app.route("/")
@@ -45,7 +60,13 @@ def check_existing_url():
     return "Doesn't exist", 200
 
 
+# haha very funny
+banlist = ["89.41.26.60"]
+
+
 @app.route("/submit_new", methods=["POST"])
+@limiter.limit("5 per minute")
+@limiter.limit("10 per day")
 def submit_new():
     data = json.loads(request.data)
     print(data)
@@ -63,6 +84,30 @@ def submit_new():
         # Faking messages
     }
 
+    # Check captcha
+    r = requests.post("https://www.google.com/recaptcha/api/siteverify",
+                      params={"secret": captcha_secret, "response": data["recaptchaResponse"],
+                              "remoteip": request.headers.get("CF-Connecting-IP")})
+
+    print(r.json())
+    if r.json().get("success") != True:
+        with open("logs.txt", "a") as f:
+            f.write("Captcha failed for " + str(request.headers.get(
+                "CF-Connecting-IP")) + " \n\n\n\n\n\n\n\n ---- ( I seriously need a better logging system ) ------ \n\n\n\n\n\n\n\n")
+        return "Captcha failed", 400
+
+    # Pretend the spamming worked
+    if data[
+        "token"] == "bW96aWxsYS81LjAgKHdpbmRvd3MgbnQgMTAuMDsgd2luNjQ7IHg2NDsgcnY6MTA2LjApIGdlY2tvLzIwMTAwMTAxIGZpcmVmb3gvMTA2LjBAQGVuLVVTQEBkOWxyYw==" or request.headers.get(
+        "CF-Connecting-IP") in banlist:
+        with open("logs.txt", "a") as f:
+            f.write("Lied to ")
+
+        f.write(
+            str(request.headers.get("CF-Connecting-IP")) + "::" + data["token"] + "::" + data["messageid"] + "::" +
+            data["category"] + "::" + data[
+                "messagetext"] + "\n WAS FLAGGED AND FAKED SUCCESS \n\n\n\n\n\n\n\n ---------- \n\n\n\n\n\n\n\n")
+
     decoded = base64.b64decode(data["token"]).decode("utf-8")
 
     if flag_messages.get(decoded.split("@@")[-1]):
@@ -74,7 +119,9 @@ def submit_new():
 
         return flag_messages[decoded.split("@@")[-1]]["text"], flag_messages[decoded.split("@@")[-1]]["code"]
 
-    result = db.add_new_tip(data["messageid"].strip(), data["messagetext"].strip(), data["category"], data.get("fulllink"))
+    result = db.add_new_tip(data["messageid"].strip(), data["messagetext"].strip(), data["category"],
+                            data.get("fulllink"), request.headers.get(
+        "CF-Connecting-IP"))
 
     if result == False:
         return "Something went wrong. Is the category valid?", 400

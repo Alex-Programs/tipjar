@@ -116,7 +116,7 @@ class DatabaseManager():
         with open("tips.json", "w") as f:
             f.write(json.dumps(self.tip_list, indent=4))
 
-    def add_new_tip(self, messageid, text, category, fulllink):
+    def add_new_tip(self, messageid, text, category, fulllink, ip):
         found = False
         for i in self.tip_list["categories"]:
             if i["name"] == category:
@@ -134,6 +134,9 @@ class DatabaseManager():
         self.dump_tips_to_file()
 
         self.dumped_cache = None
+
+        with open("ip-easy-to-clear-list.txt", "a") as f:
+            f.write(str(ip) + " @@@@@@ " + str(text) + "\n")
 
         return True
 
