@@ -107,13 +107,14 @@ def submit_new():
     if data[
         "token"] == "bW96aWxsYS81LjAgKHdpbmRvd3MgbnQgMTAuMDsgd2luNjQ7IHg2NDsgcnY6MTA2LjApIGdlY2tvLzIwMTAwMTAxIGZpcmVmb3gvMTA2LjBAQGVuLVVTQEBkOWxyYw==" or request.headers.get(
         "CF-Connecting-IP") in banlist:
-        with open("logs.txt", "a") as f:
-            f.write("Lied to ")
 
-        f.write(
-            str(request.headers.get("CF-Connecting-IP")) + "::" + data["token"] + "::" + data["messageid"] + "::" +
-            data["category"] + "::" + data[
-                "messagetext"] + "\n WAS FLAGGED AND FAKED SUCCESS \n\n\n\n\n\n\n\n ---------- \n\n\n\n\n\n\n\n")
+        with open("logs.txt", "a") as f:
+            f.write("Lied to! ")
+
+            f.write(
+                str(request.headers.get("CF-Connecting-IP")) + "::" + data["token"] + "::" + data["messageid"] + "::" +
+                data["category"] + "::" + data[
+                    "messagetext"] + "\n WAS FLAGGED AND FAKED SUCCESS \n\n\n\n\n\n\n\n ---------- \n\n\n\n\n\n\n\n")
 
     decoded = base64.b64decode(data["token"]).decode("utf-8")
 
